@@ -7,7 +7,7 @@
     <div class="content-container text-center">
         <h2 class="text-bold mb-4">Mass Times</h2>
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-12 col-bottom-fix">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 col-bottom-fix">
                 <h4 class="text-bold">Saturday</h4>
                 <div>
                     <span class="text-bold">7:00am</span> Mass in English
@@ -16,7 +16,7 @@
                     <span class="text-bold">6:00pm</span> Mass in English
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-12 col-bottom-fix">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 col-bottom-fix">
                 <h4 class="text-bold">Sunday</h4>
                 <div>
                     <span class="text-bold">7:00am</span> Mass in Tamil
@@ -31,7 +31,7 @@
                     <span class="text-bold">6:00pm</span> Mass in Bahasa Malaysia
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 col-bottom-fix">
                 <h4 class="text-bold">Weekdays</h4>
                 <div>
                     <span class="text-bold">7:00am</span> Mass in English
@@ -88,7 +88,7 @@
         </div>
     </div>
     <div class="content-container text-center">
-        <a href="#" class="btn btn-outline-secondary btn-lg">FIND A MINISTRY</a>
+        <a href="<?=$siteRoot?>ministries" class="btn btn-outline-secondary btn-lg">FIND A MINISTRY</a>
     </div>
 </div>
 <div id="RecentEvents" class="py-5">
@@ -134,7 +134,7 @@
             </div>--->
         </div>
         <div class="text-center">
-            <a href="#" class="btn btn-lg btn-outline-secondary">FIND OUT MORE</a>
+            <a href="<?=$siteRoot?>events" class="btn btn-lg btn-outline-secondary">FIND OUT MORE</a>
         </div>
     </div>
 </div>

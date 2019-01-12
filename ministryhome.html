@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HFK Wordpress Template</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/hfk/assets/Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/hfk/assets/Bootstrap/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="/hfk/assets/Bootstrap/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="/hfk/assets/FontAwesome/css/fontawesome-all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="/hfk/assets/JQuery/jquery-3.3.1.min.js"></script>
+        <script src="/hfk/assets/Bootstrap/js/bootstrap.min.js"></script>
+        <style>
+            body{
+                font-family: 'Montserrat', sans-serif;
+            }
+            .pageheader{
+                position:fixed;
+                top:0;
+                left:0;
+                right:0;
+                height:100px;
+                /*background-color:rgba(0,0,0,0.8);*/
+                /*color:white;*/
+                background-color:white;
+                display:flex;
+                align-items:center;
+                z-index:10000;
+            }
+            .pageheader-navbar{
+                display:flex;
+                align-items:center;
+                justify-content:space-between;
+                height:100%;
+            }
+            .pageheader-clearfix{
+                margin-top:100px;
+            }
+            .pageheader-logo{
+                height:100%;
+                max-height:80px;
+                width:100px;
+            }
+            .pageheader-logo img{
+                max-height:100%;
+                max-width:100%;
+            }
+            @media screen and (max-width:700px){
+                .pageheader-menu-lg{
+                    display:none;
+                }
+                .pageheader-menu-sm{
+                    display:block;
+                }
+            }
+            @media screen and (min-width:701px){
+                .pageheader-menu-lg{
+                    display:block;
+                }
+                .pageheader-menu-sm{
+                    display:none;
+                }
+            }
+            @media screen and (max-width:1200px){
+                .content-container{
+                    width:100%;
+                    padding-left:1.25rem;
+                    padding-right:1.25rem;
+                    margin:auto;
+                }
+            }
+            @media screen and (min-width:1201px){
+                .content-container{
+                    width:1200px;
+                    padding-left:1.25rem;
+                    padding-right:1.25rem;
+                    margin:auto;
+                }
+            }
+            .pagefooter{
+                background-color:rgba(0,0,0,0.8);
+                color:white;
+            }
+            .aspect-ratio-16-9{
+                position:relative;
+                width:100%;
+                padding-bottom:56.25%;
+                overflow:hidden;
+            }
+            .aspect-ratio-16-9 img{
+                position:absolute;
+                left:0;
+                width:100%;
+                
+            }
+            .text-bold{
+                font-weight:bold;
+            }
+            .col-bottom-fix{
+                margin-bottom:30px;
+            }
+            .fs-80pc{
+                font-size:80%;
+            }
+            .fs-100pc{
+                font-size:100%;
+            }
+            .fs-110pc{
+                font-size:110%;
+            }
+            .fs-120pc{
+                font-size:120%;
+            }
+            .fs-130pc{
+                font-size:130%;
+            }
+        </style>
+        <script>
+            $(document).ready(function(){
+                ResizePageHeader();
+                $(window).on("scroll",function(){
+                    ResizePageHeader();
+                })
+            })
+            function ResizePageHeader(){
+                var scrollTop = $(document).scrollTop();
+                var pageHeaderHeight = $(".pageheader").outerHeight();
+                if(scrollTop > 40){
+                    $(".pageheader").outerHeight(60);
+                }
+                else{
+                    $(".pageheader").outerHeight(100 - scrollTop);
+                    
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="pageheader border-bottom">
+            <div class="content-container h-100">
+                <div class="pageheader-navbar">
+                    <div class="pageheader-logo">
+                        <img src="/hfk/assets/HFKLogo.png">
+                    </div>
+                    <div class="pageheader-menu-lg text-bold">
+                        <a class="mx-1" href="/hfk/index.html">Home</a>
+                        <a class="mx-1" href="/hfk/events.html">Events</a>
+                        <a class="mx-1" href="/hfk/ministries.html">Ministries</a>
+                        <a class="mx-1" href="#">Bulletin</a>
+                        <a class="mx-1" href="#">BEC</a>
+                        <a class="ml-1" href="/hfk/calendar.html">Calendar</a>
+                    </div>
+                    <div class="pageheader-menu-sm">
+                        <a href="#" class="fs-130pc" data-toggle="modal" data-target="#SmallMenu">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        
+        <div class="pagecontent pageheader-clearfix">
+            
+            <div class="content-container py-5">
+                <h1>Ministries</h1>
+            </div>
+        </div>
+        <div class="pagefooter border-top py-3 text-center">
+            <div class="content-container">
+                <div class="row mb-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="text-bold">Email</div>
+                        <p>hfckajang@gmail.com</p>
+                        <div class="text-bold">Phone Number</div>
+                        <p>+603 87331154</p>
+                        <div class="text-bold">Fax</div>
+                        <p>+603 87330471</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="text-bold">Follow Us</div>
+                        <div>
+                            <a href="#">Facebook</a>
+                        </div>
+                        <div>
+                            <a href="#">Instagram</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                        <div class="text-bold">About Us</div>
+                        <div>
+                            <a href="#">Our Priests</a>
+                        </div>
+                        <div>
+                            <a href="#">Parish Pastoral Council</a>
+                        </div>
+                        <div>
+                            <a href="#">Parish Coordinating Council</a>
+                        </div>
+                        <div>
+                            <a href="#">Parish History</a>
+                        </div>
+                        <div>
+                            <a href="#">Parish Vision</a>
+                        </div>
+                        <div>
+                            <a href="#">Our Location</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-container text-center text-bold fs-80pc">
+                Copyright 2019  Holy Family Church Kajang
+            </div>
+        </div>
+    </body>
+</html>
