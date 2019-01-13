@@ -144,7 +144,6 @@ body{
 }
 .card.ministry-card{
     border-radius:0px;
-    cursor:pointer;
     height:100%;
 }
 .card.ministry-card h5{

@@ -9,9 +9,11 @@
 ?>
 <div class="content-container py-5">
     <div class="row">
-        <div class="col-lg-8 col-md-8 col-sm-12 col-12 col-bottom-fix text-justify">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-12 col-bottom-fix">
             <h1 class="text-bold mb-4"><?=$pagetitle?></h1>
-            <?=$pagecontent?>
+            <div class="text-justify">
+                <?=$pagecontent?>
+            </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 col-12">
             <h5 class="text-bold">More you might be interested in</h5>
