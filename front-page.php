@@ -88,7 +88,7 @@
         </div>
     </div>
     <div class="content-container text-center">
-        <a href="<?=$siteRoot?>ministries" class="btn btn-outline-secondary btn-lg">FIND A MINISTRY</a>
+        <a href="<?=$siteRoot?>/ministries" class="btn btn-outline-secondary btn-lg">FIND A MINISTRY</a>
     </div>
 </div>
 <div id="RecentEvents" class="py-5">
