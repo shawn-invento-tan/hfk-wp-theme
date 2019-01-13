@@ -1,6 +1,6 @@
 <?php
     $themeRoot = get_template_directory_uri();
-    $siteRoot = get_site_url() . "/hfkui";
+    $siteRoot = get_site_url();
 ?>
 <!DOCTYPE html>
 <html>
