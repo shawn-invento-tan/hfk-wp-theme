@@ -55,6 +55,8 @@
                         <a href="<?=$siteRoot?>/bulletin" class="list-group-item">Bulletin</a>
                         <a href="<?=$siteRoot?>/bec" class="list-group-item">BEC</a>
                         <a href="<?=$siteRoot?>/calendar" class="list-group-item">Calendar</a>
+                        <a href="<?=$siteRoot?>/forms" class="list-group-item">Forms</a>
+                        <a href="<?=$siteRoot?>/contactus" class="list-group-item">Contact Us</a>
                     </div>
                 </div>
             </div>

@@ -1,14 +1,23 @@
 <?php
     $themeRoot = get_template_directory_uri();
     $siteRoot = get_site_url();
+    if(is_front_page()){
+        $pageTitle="Holy Family Church Kajang";
+        $pageDescription="Welcome to the official site asdasdof Holy Family Church Kajang.";
+    }
+    else{
+        $pageTitle=get_the_title();
+        $pageDescription="";
+    }
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HFK Wordpress Template</title>
-        <meta name="description" content="">
+        <title><?=$pageTitle?></title>
+        <?=wp_head()?>
         <meta name="keywords" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="<?=$themeRoot?>/assets/HFKLogo1.png">
         <link rel="stylesheet" href="<?=$themeRoot?>/assets/Bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?=$themeRoot?>/assets/Bootstrap/css/bootstrap-grid.min.css">
         <link rel="stylesheet" href="<?=$themeRoot?>/assets/Bootstrap/css/bootstrap-reboot.min.css">
@@ -17,6 +26,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <script src="<?=$themeRoot?>/assets/JQuery/jquery-3.3.1.min.js"></script>
         <script src="<?=$themeRoot?>/assets/Bootstrap/js/bootstrap.min.js"></script>
+        
     </head>
     <body>
         <div class="pageheader border-bottom">
@@ -32,7 +42,9 @@
                         <a class="mx-1" href="<?=$siteRoot?>/ministries">Ministries</a>
                         <a class="mx-1" href="<?=$siteRoot?>/bulletin">Bulletin</a>
                         <a class="mx-1" href="<?=$siteRoot?>/bec">BEC</a>
-                        <a class="ml-1" href="<?=$siteRoot?>/calendar">Calendar</a>
+                        <a class="mx-1" href="<?=$siteRoot?>/calendar">Calendar</a>
+                        <a class="mx-1" href="<?=$siteRoot?>/forms">Forms</a>
+                        <a class="ml-1" href="<?=$siteRoot?>/contactus">Contact Us</a>
                     </div>
                     <div class="pageheader-menu-sm">
                         <a href="#" class="fs-130pc" data-toggle="modal" data-target="#SmallMenu">

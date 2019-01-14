@@ -146,6 +146,61 @@ body{
     border-radius:0px;
     height:100%;
 }
+.card.ministry-card a{
+    text-decoration:none;
+}
 .card.ministry-card h5{
     font-weight:bold;
+}
+.bulletin-block{
+    margin-bottom:1.5rem;
+}
+.bulletin-header{
+    font-weight:bold;
+}
+.bulletin-body{
+    margin-bottom:1rem;
+    text-align:justify;
+}
+.bg-gradient-lawrencium{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-lawrencium{
+    color:white;
+    border:1px solid white;
+    border-radius:0px;
+    font-weight:bold;
+}
+.btn-lawrencium:hover{
+    background-color:white;
+}
+
+html { margin-top: 0px !important; }
+* html body { margin-top: 0px !important; }
+@media screen and ( max-width: 782px ) {
+    html { margin-top: 0px !important; }
+    * html body { margin-top: 0px !important; }
+}
+.hoverable{
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor:pointer;
+}
+.hoverable:hover{
+    box-shadow: 0 5px 28px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+}
+.front-page-card{
+    border:none;
+    border-radius:0px;
+}
+.front-page-card .card-body{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius:0px;
+    font-weight:bold;
+}
+.front-page-card .card-img-top{
+    border:none;
+    border-radius:0px;
 }

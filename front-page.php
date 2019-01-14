@@ -3,6 +3,15 @@
     $pastEventFilters = array("category_name"=>"front_page_events");
     $pastEventsArray = get_posts($pastEventFilters);
 ?>
+<div id="Slider" class="py-5 bg-gradient-lawrencium text-white">
+    <div class="content-container text-center">
+        <h1 class="text-bold mb-4">Welcome to Holy Family Kajang</h1>
+        <div>
+            <a href="#" class="btn btn-lg btn-lawrencium">FIND US</a>
+            <a href="#" class="btn btn-lg btn-lawrencium">MASS TIMES</a>
+        </div>
+    </div>
+</div>
 <div id="MassTimes" class="py-5">
     <div class="content-container text-center">
         <h2 class="text-bold mb-4">Mass Times</h2>
@@ -46,8 +55,8 @@
         <h4 class="mb-4">Interested to serve the Church? Find your calling here.</h4>
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6 col-12 col-bottom-fix">
-                <div class="card">
-                    <div class="card-img-top aspect-ratio-16-9">
+                <div class="card front-page-card hoverable">
+                    <div class="card-img-top aspect-ratio-16-9 bg-dark">
                         
                     </div>
                     <div class="card-body">
@@ -56,8 +65,8 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-12 col-bottom-fix">
-                <div class="card">
-                    <div class="card-img-top aspect-ratio-16-9">
+                <div class="card front-page-card hoverable">
+                    <div class="card-img-top aspect-ratio-16-9 bg-dark">
 
                     </div>
                     <div class="card-body">
@@ -66,8 +75,8 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-12 col-bottom-fix">
-                <div class="card">
-                    <div class="card-img-top aspect-ratio-16-9">
+                <div class="card front-page-card hoverable">
+                    <div class="card-img-top aspect-ratio-16-9 bg-dark">
 
                     </div>
                     <div class="card-body">
@@ -76,8 +85,8 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-12 col-bottom-fix">
-                <div class="card">
-                    <div class="card-img-top aspect-ratio-16-9">
+                <div class="card front-page-card hoverable">
+                    <div class="card-img-top aspect-ratio-16-9 bg-dark">
 
                     </div>
                     <div class="card-body">
@@ -96,12 +105,32 @@
         <h2 class="text-bold mb-4">Recent Events</h2>
         <div class="row justify-content-center">
             <?php
-                if($pastEventsArray){
+                /*if($pastEventsArray){
                     foreach($pastEventsArray as $pastEvent) : setup_postdata($pastEvent);
                         the_content();
                     endforeach;
-                }
+                }*/
             ?>
+            <!---<div class="col-lg-6 col-md-6 col-sm-12 col-12 col-bottom-fix">
+                <div class="card front-page-card hoverable">
+                    <div class="card-img-top aspect-ratio-16-9 bg-light">
+                        <img src="/hfk/assets/firstholycommunion.jpg">
+                    </div>
+                    <div class="card-body text-bold">
+                        First Holy Communion 2018
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 col-bottom-fix">
+                <div class="card rounded-0">
+                    <div class="card-img-top aspect-ratio-16-9 bg-light">
+                        <img src="/hfk/assets/firstholycommunion.jpg">
+                    </div>
+                    <div class="card-body text-bold">
+                        First Holy Communion 2018
+                    </div>
+                </div>
+            </div>--->
             <!---<div class="col-lg-6 col-md-6 col-sm-12 col-12 col-bottom-fix">
                 <div class="card rounded-0">
                     <div class="card-img-top aspect-ratio-16-9 bg-light">
