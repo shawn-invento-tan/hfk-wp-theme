@@ -70,7 +70,7 @@
 
                     </div>
                     <div class="card-body">
-                        Catechetical
+                        Family Life
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
 
                     </div>
                     <div class="card-body">
-                        Catechetical
+                        Legion of Mary
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
 
                     </div>
                     <div class="card-body">
-                        Catechetical
+                        Liturgical
                     </div>
                 </div>
             </div>
@@ -105,11 +105,11 @@
         <h2 class="text-bold mb-4">Recent Events</h2>
         <div class="row justify-content-center">
             <?php
-                /*if($pastEventsArray){
+                if($pastEventsArray){
                     foreach($pastEventsArray as $pastEvent) : setup_postdata($pastEvent);
                         the_content();
                     endforeach;
-                }*/
+                }
             ?>
             <!---<div class="col-lg-6 col-md-6 col-sm-12 col-12 col-bottom-fix">
                 <div class="card front-page-card hoverable">
