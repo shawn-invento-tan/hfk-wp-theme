@@ -121,6 +121,12 @@ body{
 .text-bold{
     font-weight:bold;
 }
+.text-decoration-none{
+    text-decoration:none;
+}
+a.text-decoration-none{
+    text-decoration:none;
+}
 .col-bottom-fix{
     margin-bottom:30px;
 }
@@ -200,7 +206,34 @@ html { margin-top: 0px !important; }
     border-radius:0px;
     font-weight:bold;
 }
+.front-page-card a{
+    text-decoration:none;
+}
+.front-page-card a:hover{
+    text-decoration:none;
+}
 .front-page-card .card-img-top{
     border:none;
+    border-radius:0px;
+}
+.overflowable-container{
+    width:100%;
+    overflow:auto;
+}
+#bitnami-banner{
+    display:none;
+}
+.icon-card{
+    text-align:center;
+}
+.icon-card .icon-area{
+    padding-top:1.25rem;
+    padding-left:1.25rem;
+    padding-right:1.25rem;
+}
+.icon-card .card-body{
+    font-weight:bold;
+}
+.btn{
     border-radius:0px;
 }

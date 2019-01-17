@@ -2,17 +2,20 @@
     get_header();
     $pastEventFilters = array("category_name"=>"front_page_events");
     $pastEventsArray = get_posts($pastEventFilters);
+    $siteRoot = get_site_url();
 ?>
 <div id="Slider" class="py-5 bg-gradient-lawrencium text-white">
     <div class="content-container text-center">
-        <h1 class="text-bold mb-4">Welcome to Holy Family Kajang</h1>
+        <h1 class="text-bold mb-4">
+            HOLY FAMILY KAJANG
+        </h1>
         <div>
             <a href="#" class="btn btn-lg btn-lawrencium">FIND US</a>
             <a href="#" class="btn btn-lg btn-lawrencium">MASS TIMES</a>
         </div>
     </div>
 </div>
-<div id="MassTimes" class="py-5">
+<div id="MassTimes" class="py-5 border-top">
     <div class="content-container text-center">
         <h2 class="text-bold mb-4">Mass Times</h2>
         <div class="row justify-content-center">
@@ -49,48 +52,68 @@
         </div>
     </div>
 </div>
-<div id="Ministries" class="py-5 bg-light">
+<div id="Ministries" class="py-5 bg-light border-top">
     <div class="content-container text-center">
         <h2 class="text-bold">Ministries</h2>
         <h4 class="mb-4">Interested to serve the Church? Find your calling here.</h4>
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 col-bottom-fix">
-                <div class="card front-page-card hoverable">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
+                <div class="card front-page-card hoverable goto">
                     <div class="card-img-top aspect-ratio-16-9 bg-dark">
                         
                     </div>
                     <div class="card-body">
-                        Catechetical
+                        <a href="<?=$siteRoot?>/ministries/catechetical">Catechetical</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 col-bottom-fix">
-                <div class="card front-page-card hoverable">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
+                <div class="card front-page-card hoverable goto">
                     <div class="card-img-top aspect-ratio-16-9 bg-dark">
 
                     </div>
                     <div class="card-body">
-                        Family Life
+                        <a href="<?=$siteRoot?>/ministries/family-life">Family Life</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 col-bottom-fix">
-                <div class="card front-page-card hoverable">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
+                <div class="card front-page-card hoverable goto">
                     <div class="card-img-top aspect-ratio-16-9 bg-dark">
 
                     </div>
                     <div class="card-body">
-                        Legion of Mary
+                        <a href="<?=$siteRoot?>">Legion of Mary</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 col-bottom-fix">
-                <div class="card front-page-card hoverable">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
+                <div class="card front-page-card hoverable goto">
                     <div class="card-img-top aspect-ratio-16-9 bg-dark">
 
                     </div>
                     <div class="card-body">
-                        Liturgical
+                        <a href="<?=$siteRoot?>">Liturgical</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
+                <div class="card front-page-card hoverable goto">
+                    <div class="card-img-top aspect-ratio-16-9 bg-dark">
+
+                    </div>
+                    <div class="card-body">
+                        <a href="<?=$siteRoot?>">RCIA</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
+                <div class="card front-page-card hoverable goto">
+                    <div class="card-img-top aspect-ratio-16-9 bg-dark">
+
+                    </div>
+                    <div class="card-body">
+                        <a href="<?=$siteRoot?>">Prison Ministry</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +123,7 @@
         <a href="<?=$siteRoot?>/ministries" class="btn btn-outline-secondary btn-lg">FIND A MINISTRY</a>
     </div>
 </div>
-<div id="RecentEvents" class="py-5">
+<div id="RecentEvents" class="py-5 border-top">
     <div class="content-container text-center">
         <h2 class="text-bold mb-4">Recent Events</h2>
         <div class="row justify-content-center">
@@ -163,43 +186,44 @@
             </div>--->
         </div>
         <div class="text-center">
-            <a href="<?=$siteRoot?>events" class="btn btn-lg btn-outline-secondary">FIND OUT MORE</a>
+            <a href="<?=$siteRoot?>events" class="btn btn-lg btn-outline-secondary">MORE EVENTS</a>
         </div>
     </div>
 </div>
 </div>
-<div id="Bulletins" class="bg-light py-5">
-<div class="content-container text-center">
-    <h2 class="text-bold">Bulletins</h2>
-    <h4 class="mb-4">Stay updated with the latest events</h4>
-    <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
-            <h5 class="text-bold">English</h5>
-            <div>
-                <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+<div id="Bulletins" class="bg-light py-5 border-top">
+    <div class="content-container text-center">
+        <h2 class="text-bold">Bulletins</h2>
+        <h4 class="mb-4">Stay updated with the latest events</h4>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
+                <h5 class="text-bold">English</h5>
+                <div>
+                    <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
-            <h5 class="text-bold">Tamil</h5>
-            <div>
-                <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
+                <h5 class="text-bold">Tamil</h5>
+                <div>
+                    <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
-            <h5 class="text-bold">Mandarin</h5>
-            <div>
-                <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
+                <h5 class="text-bold">Mandarin</h5>
+                <div>
+                    <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
-            <h5 class="text-bold">Bahasa Malaysia</h5>
-            <div>
-                <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
+                <h5 class="text-bold">Bahasa Malaysia</h5>
+                <div>
+                    <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+                </div>
             </div>
         </div>
     </div>
 </div>
-</div>
+<div id="ContactUs" class="bg-light"
 <?php
     get_footer();
 ?>

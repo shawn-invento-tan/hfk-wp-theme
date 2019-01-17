@@ -26,15 +26,22 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <script src="<?=$themeRoot?>/assets/JQuery/jquery-3.3.1.min.js"></script>
         <script src="<?=$themeRoot?>/assets/Bootstrap/js/bootstrap.min.js"></script>
-        
+        <script>
+            $(document).ready(function(){
+                $(".goto").on("click",function(){
+                    var location = $(this).find("a").attr("href");
+                    window.location.href=location;
+                })
+            })
+        </script>
     </head>
     <body>
         <div class="pageheader border-bottom">
             <div class="content-container h-100">
                 <div class="pageheader-navbar">
                     <div class="pageheader-logo">
-                        <img src="<?=$themeRoot?>/assets/HFKLogo1.png" class="pageheader-logo-primary">
-                        <img src="<?=$themeRoot?>/assets/HFKLogo2.png" class="pageheader-logo-secondary">
+                        <img src="<?=$themeRoot?>/assets/HFKLogo1.png" alt="HFK Primary Logo" class="pageheader-logo-primary">
+                        <img src="<?=$themeRoot?>/assets/HFKLogo2.png" alt="HFK Secondary Logo" class="pageheader-logo-secondary">
                     </div>
                     <div class="pageheader-menu-lg text-bold">
                         <a class="mx-1" href="<?=$siteRoot?>">Home</a>
@@ -44,7 +51,7 @@
                         <a class="mx-1" href="<?=$siteRoot?>/bec">BEC</a>
                         <a class="mx-1" href="<?=$siteRoot?>/calendar">Calendar</a>
                         <a class="mx-1" href="<?=$siteRoot?>/forms">Forms</a>
-                        <a class="ml-1" href="<?=$siteRoot?>/contactus">Contact Us</a>
+                        <a class="ml-1" href="<?=$siteRoot?>/contact-us">Contact Us</a>
                     </div>
                     <div class="pageheader-menu-sm">
                         <a href="#" class="fs-130pc" data-toggle="modal" data-target="#SmallMenu">

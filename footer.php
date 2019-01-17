@@ -1,4 +1,7 @@
-        <div class="pagefooter border-top py-3 text-center">
+<?php
+    $siteRoot=get_site_url();
+?>
+        <div class="pagefooter border-top py-3 text-lg-left text-md-left text-sm-center text-center">
             <div class="content-container">
                 <div class="row mb-4">
                     <div class="col-lg-4 col-md-4 col-sm-12 col-12 col-bottom-fix">
@@ -21,28 +24,43 @@
                     <div class="col-lg-4 col-md-4 col-sm-12 col-12 col-bottom-fix">
                         <div class="text-bold">About Us</div>
                         <div>
-                            <a href="<?=$siteRoot?>/">Our Priests</a>
+                            <a href="<?=$siteRoot?>/our-priests">Our Priests</a>
                         </div>
                         <div>
-                            <a href="<?=$siteRoot?>/">Parish Pastoral Council</a>
+                            <a href="<?=$siteRoot?>/parish-pastoral-council">Parish Pastoral Council</a>
                         </div>
                         <div>
-                            <a href="<?=$siteRoot?>/">Parish Coordinating Council</a>
+                            <a href="<?=$siteRoot?>/parish-coordinating-council">Parish Coordinating Council</a>
                         </div>
                         <div>
-                            <a href="<?=$siteRoot?>/">Parish History</a>
+                            <a href="<?=$siteRoot?>/parish-history">Parish History</a>
                         </div>
                         <div>
-                            <a href="<?=$siteRoot?>/">Parish Vision</a>
+                            <a href="<?=$siteRoot?>/parish-vision">Parish Vision</a>
                         </div>
                         <div>
                             <a href="<?=$siteRoot?>/">Our Location</a>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 col-bottom-fix">
+                        <div class="text-bold">Resources</div>
+                        <div>
+                            <a href="http://www.heraldmalaysia.com/">The Herald</a>
+                        </div>
+                        <div>
+                            <a href="http://www.scborromeo.org/ccc.htm">Catechism of the Catholic Church</a>
+                        </div>
+                        <div>
+                            <a href="https://www.catholic.org/bible/daily_reading/">Daily Bible Readings</a>
+                        </div>
+                        <div>
+                            <a href="https://www.franciscanmedia.org/sacraments/">The 7 Sacraments</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="content-container text-center text-bold fs-80pc">
-                Copyright 2019  Holy Family Church Kajang
+                Copyright <i class="fa fa-copyright"></i> 2019  Holy Family Church Kajang
             </div>
         </div>
         <div class="modal fade" id="SmallMenu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -56,7 +74,7 @@
                         <a href="<?=$siteRoot?>/bec" class="list-group-item">BEC</a>
                         <a href="<?=$siteRoot?>/calendar" class="list-group-item">Calendar</a>
                         <a href="<?=$siteRoot?>/forms" class="list-group-item">Forms</a>
-                        <a href="<?=$siteRoot?>/contactus" class="list-group-item">Contact Us</a>
+                        <a href="<?=$siteRoot?>/contact-us" class="list-group-item">Contact Us</a>
                     </div>
                 </div>
             </div>
