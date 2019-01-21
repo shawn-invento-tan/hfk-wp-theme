@@ -3,8 +3,26 @@
     $pastEventFilters = array("category_name"=>"front_page_events");
     $pastEventsArray = get_posts($pastEventFilters);
     $siteRoot = get_site_url();
+    $themeRoot= get_template_directory_uri();
 ?>
-<div id="Slider" class="py-5 bg-gradient-lawrencium text-white">
+<div id="Slider" style="position:relative">
+    <div>
+        <img src="<?=$themeRoot?>/assets/churchimg2.jpg" class="w-100"/>
+    </div>
+    <div style="position:absolute;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5)"></div>
+    <div style="position:absolute;top:0;left:0;right:0;bottom:0;display:flex;align-items:center;text-align:center">
+        <div class="content-container text-white">
+            <div>
+                <img src="<?=$themeRoot?>/assets/HFKLogoWhite.png" alt="HFK Primary Logo" class="church-banner-img w-25">
+            </div>
+            <div class="d-lg-block d-md-block d-sm-none d-none mt-4">
+                <a href="#" class="btn btn-lg btn-lawrencium">FIND US</a>
+                <a href="#" class="btn btn-lg btn-lawrencium">MASS TIMES</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div id="Slider" class="py-5 bg-gradient-lawrencium text-white">
     <div class="content-container text-center">
         <h1 class="text-bold mb-4">
             HOLY FAMILY KAJANG
@@ -14,7 +32,7 @@
             <a href="#" class="btn btn-lg btn-lawrencium">MASS TIMES</a>
         </div>
     </div>
-</div>
+</div>-->
 <div id="MassTimes" class="py-5 border-top">
     <div class="content-container text-center">
         <h2 class="text-bold mb-4">Mass Times</h2>
@@ -54,16 +72,16 @@
 </div>
 <div id="Ministries" class="py-5 bg-light border-top">
     <div class="content-container text-center">
-        <h2 class="text-bold">Ministries</h2>
+        <h2 class="text-bold">Clusters</h2>
         <h4 class="mb-4">Interested to serve the Church? Find your calling here.</h4>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
                 <div class="card front-page-card hoverable goto">
                     <div class="card-img-top aspect-ratio-16-9 bg-dark">
                         
                     </div>
                     <div class="card-body">
-                        <a href="<?=$siteRoot?>/ministries/catechetical">Catechetical</a>
+                        <a href="<?=$siteRoot?>/ministries/catechetical">Formation</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +91,7 @@
 
                     </div>
                     <div class="card-body">
-                        <a href="<?=$siteRoot?>/ministries/family-life">Family Life</a>
+                        <a href="<?=$siteRoot?>">Youth</a>
                     </div>
                 </div>
             </div>
@@ -83,44 +101,15 @@
 
                     </div>
                     <div class="card-body">
-                        <a href="<?=$siteRoot?>">Legion of Mary</a>
+                        <a href="<?=$siteRoot?>">Integral Human Development</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
-                <div class="card front-page-card hoverable goto">
-                    <div class="card-img-top aspect-ratio-16-9 bg-dark">
-
-                    </div>
-                    <div class="card-body">
-                        <a href="<?=$siteRoot?>">Liturgical</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
-                <div class="card front-page-card hoverable goto">
-                    <div class="card-img-top aspect-ratio-16-9 bg-dark">
-
-                    </div>
-                    <div class="card-body">
-                        <a href="<?=$siteRoot?>">RCIA</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
-                <div class="card front-page-card hoverable goto">
-                    <div class="card-img-top aspect-ratio-16-9 bg-dark">
-
-                    </div>
-                    <div class="card-body">
-                        <a href="<?=$siteRoot?>">Prison Ministry</a>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     <div class="content-container text-center">
-        <a href="<?=$siteRoot?>/ministries" class="btn btn-outline-secondary btn-lg">FIND A MINISTRY</a>
+        <a href="<?=$siteRoot?>/ministries" class="btn btn-outline-secondary btn-lg">FIND A CLUSTER</a>
     </div>
 </div>
 <div id="RecentEvents" class="py-5 border-top">
@@ -223,7 +212,7 @@
         </div>
     </div>
 </div>
-<div id="ContactUs" class="bg-light"
+
 <?php
     get_footer();
 ?>

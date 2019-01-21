@@ -12,9 +12,9 @@
     <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12 col-12 col-bottom-fix">
             <div class="mb-2">
-                <a class="text-decoration-none" href="<?=$siteRoot?>/ministries">
+                <a class="text-decoration-none text-black-50" href="<?=$siteRoot?>/clusters">
                     <i class="fa fa-arrow-circle-left"></i>
-                    Ministries
+                    Clusters
                 </a>
             </div>
             <h1 class="text-bold mb-4"><?=$pagetitle?></h1>

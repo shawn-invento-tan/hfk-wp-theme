@@ -14,8 +14,10 @@
 <html>
     <head>
         <title><?=$pageTitle?></title>
-        <?=wp_head()?>
-        <meta name="keywords" content="">
+        <meta name="description" keywords="">
+        <meta 
+            name="keywords" 
+            content="holy,family,church,kajang,selangor,malaysia,hfc,hfk,parish,parishoners,events,ministry,ministries,clusters,activities,sunday,school,mass,times,schedule,kuala lumpur archdiocese,christian,bm,mandarin,tamil,kajang parish,gereja,katolik,rcia,svdp">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="<?=$themeRoot?>/assets/HFKLogo1.png">
         <link rel="stylesheet" href="<?=$themeRoot?>/assets/Bootstrap/css/bootstrap.min.css">
@@ -36,22 +38,23 @@
         </script>
     </head>
     <body>
+        <input type="hidden" id="siteRoot" value="<?=$siteRoot?>">
         <div class="pageheader border-bottom">
             <div class="content-container h-100">
                 <div class="pageheader-navbar">
                     <div class="pageheader-logo">
-                        <img src="<?=$themeRoot?>/assets/HFKLogo1.png" alt="HFK Primary Logo" class="pageheader-logo-primary">
-                        <img src="<?=$themeRoot?>/assets/HFKLogo2.png" alt="HFK Secondary Logo" class="pageheader-logo-secondary">
+                        <a href="<?=$siteRoot?>"><img src="<?=$themeRoot?>/assets/HFKLogo1.png" alt="HFK Primary Logo" class="pageheader-logo-primary"></a>
+                        <a href="<?=$siteRoot?>"><img src="<?=$themeRoot?>/assets/HFKLogo2.png" alt="HFK Secondary Logo" class="pageheader-logo-secondary"></a>
                     </div>
                     <div class="pageheader-menu-lg text-bold">
-                        <a class="mx-1" href="<?=$siteRoot?>">Home</a>
-                        <a class="mx-1" href="<?=$siteRoot?>/events">Events</a>
-                        <a class="mx-1" href="<?=$siteRoot?>/ministries">Ministries</a>
-                        <a class="mx-1" href="<?=$siteRoot?>/bulletin">Bulletin</a>
-                        <a class="mx-1" href="<?=$siteRoot?>/bec">BEC</a>
-                        <a class="mx-1" href="<?=$siteRoot?>/calendar">Calendar</a>
-                        <a class="mx-1" href="<?=$siteRoot?>/forms">Forms</a>
-                        <a class="ml-1" href="<?=$siteRoot?>/contact-us">Contact Us</a>
+                        <a class="mx-2" href="<?=$siteRoot?>">Home</a>
+                        <a class="mx-2" href="<?=$siteRoot?>/events">Events</a>
+                        <a class="mx-2" href="<?=$siteRoot?>/clusters">Clusters</a>
+                        <a class="mx-2" href="<?=$siteRoot?>/bulletin">Bulletin</a>
+                        <a class="mx-2" href="<?=$siteRoot?>/bec">BEC</a>
+                        <a class="mx-2" href="<?=$siteRoot?>/calendar">Calendar</a>
+                        <a class="mx-2" href="<?=$siteRoot?>/forms">Forms</a>
+                        <a class="ml-2" href="<?=$siteRoot?>/contact-us">Contact Us</a>
                     </div>
                     <div class="pageheader-menu-sm">
                         <a href="#" class="fs-130pc" data-toggle="modal" data-target="#SmallMenu">

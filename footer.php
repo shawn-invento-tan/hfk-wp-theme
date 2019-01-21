@@ -64,12 +64,12 @@
             </div>
         </div>
         <div class="modal fade" id="SmallMenu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content text-center text-bold">
+            <div class="modal-dialog modal-dialog-centered rounded-0" role="document">
+                <div class="modal-content rounded-0 text-center text-bold">
                     <div class="list-group">
                         <a href="<?=$siteRoot?>/" class="list-group-item">Home</a>
                         <a href="<?=$siteRoot?>/events" class="list-group-item">Events</a>
-                        <a href="<?=$siteRoot?>/ministries" class="list-group-item">Ministries</a>
+                        <a href="<?=$siteRoot?>/clusters" class="list-group-item">Clusters</a>
                         <a href="<?=$siteRoot?>/bulletin" class="list-group-item">Bulletin</a>
                         <a href="<?=$siteRoot?>/bec" class="list-group-item">BEC</a>
                         <a href="<?=$siteRoot?>/calendar" class="list-group-item">Calendar</a>
