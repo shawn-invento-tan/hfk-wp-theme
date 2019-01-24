@@ -1,6 +1,6 @@
 <?php
     get_header();
-    $pastEventFilters = array("category_name"=>"front_page_events");
+    $pastEventFilters = array("category_name"=>"event","posts_per_page"=>4);
     $pastEventsArray = get_posts($pastEventFilters);
     $siteRoot = get_site_url();
     $themeRoot= get_template_directory_uri();
@@ -109,7 +109,7 @@
         </div>
     </div>
     <div class="content-container text-center">
-        <a href="<?=$siteRoot?>/ministries" class="btn btn-outline-secondary btn-lg">FIND A CLUSTER</a>
+        <a href="<?=$siteRoot?>/clusters" class="btn btn-outline-secondary btn-lg">FIND A CLUSTER</a>
     </div>
 </div>
 <div id="RecentEvents" class="py-5 border-top">
@@ -119,7 +119,10 @@
             <?php
                 if($pastEventsArray){
                     foreach($pastEventsArray as $pastEvent) : setup_postdata($pastEvent);
-                        the_content();
+                        $postTitle = $pastEvent -> post_title;
+                        $postURL = get_permalink($pastEvent -> ID);
+                        $postThumbnailURL = get_the_post_thumbnail_url($pastEvent -> ID);
+                        include("template-parts/event-item-front-page.php");
                     endforeach;
                 }
             ?>
@@ -175,7 +178,7 @@
             </div>--->
         </div>
         <div class="text-center">
-            <a href="<?=$siteRoot?>events" class="btn btn-lg btn-outline-secondary">MORE EVENTS</a>
+            <a href="<?=$siteRoot?>/events" class="btn btn-lg btn-outline-secondary">MORE EVENTS</a>
         </div>
     </div>
 </div>

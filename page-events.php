@@ -19,7 +19,7 @@
                         $postAuthor = trim("$authorFirstName $authorLastName");
                         $postDate = get_the_date('d/m/Y', $eventWriteup -> ID);
                         $postURL = get_permalink($eventWriteup -> ID);
-                        
+                        $postThumbnail = get_the_post_thumbnail($eventWriteup -> ID,'aspect-ratio-1-1');
                         include("template-parts/event-item-template.php");
                     endforeach;
                 }
