@@ -1,7 +1,7 @@
 <div class="event-item">
     <div class="event-thumbnail">
         <div class="aspect-ratio-1-1 bg-dark">
-        <?=$postThumbnail?>
+            <img src="<?=$croppedThumbnailSrc?>">
         </div>
     </div>
     <div class="event-description">

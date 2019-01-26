@@ -53,9 +53,11 @@
                 <a href="#" class="list-group-item">Bahasa Malaysia</a>
             </div>
             <h5 class="text-bold mb-2">Have something to post?</h5>
-            <div>
-                Send us an email at with the title and content of the post.
-            </div>
+            <p>
+                Email your bulletin post to us at <b>editor@hfckajang.org.my</b> or WhatsApp us at <b>012-2085590</b>. 
+                Please send us your full name, title and the content of your post. If you are sending images, send them as separate attachments. Do not paste them into the Microsoft Word document.
+                Our full posting guidelines are available <a href="<?=$siteRoot?>/posting-guidelines">here</a>
+            </p>
         </div>
     </div>
 </div>

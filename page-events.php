@@ -19,6 +19,8 @@
                         $postAuthor = trim("$authorFirstName $authorLastName");
                         $postDate = get_the_date('d/m/Y', $eventWriteup -> ID);
                         $postURL = get_permalink($eventWriteup -> ID);
+                        $thumbNailID = get_post_thumbnail_id($eventWriteup -> ID);
+                        $croppedThumbnailSrc=wp_get_attachment_image_src($thumbNailID,"aspect-ratio-1-1")[0];
                         $postThumbnail = get_the_post_thumbnail($eventWriteup -> ID,'aspect-ratio-1-1');
                         include("template-parts/event-item-template.php");
                     endforeach;
@@ -80,8 +82,14 @@
                 </div>
             </div>--->
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-12 col-bottom-fix">
-            <h5 class="text-bold">More interesting articles</h5>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12 col-bottom-fix text-lg-left text-md-left text-sm-center text-center">
+            <h5 class="text-bold">Want to submit your article?</h5>
+            <p>
+                Email your article to us at <b>editor@hfckajang.org.my</b> or WhatsApp us at <b>012-2085590</b>
+            </p>
+            <p>
+            
+            </p>
         </div>
     </div>            
 </div>

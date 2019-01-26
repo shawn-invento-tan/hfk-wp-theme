@@ -276,3 +276,32 @@ html { margin-top: 0px !important; }
     padding-left:1rem;
     padding-right:1rem;
 }
+.bec-card{
+    padding:0px;
+}
+.bec-card .bec-zone{
+    cursor: pointer;
+}
+.bec-card.opened .bec-zone{
+    color:white;
+    background-color:rgba(0,0,0,0.5);
+}
+.bec-card.opened .bec-zone i{
+    color:white;
+}
+.bec-card .bec-info-extended{
+    display:none;
+}
+.bec-card.opened .bec-info-extended{
+    display:block;
+}
+.bec-card .bec-zone{
+    padding-left:1.25rem;
+    padding-right:1.25rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.bec-card .bec-info-extended{
+    padding-left:1.25rem;
+    padding-right:1.25rem;
+}
