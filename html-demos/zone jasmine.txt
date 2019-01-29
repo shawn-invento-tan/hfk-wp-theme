@@ -1,0 +1,53 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Joseph Alphonne
+	<br>
+	012-2335917
+	<br>
+	josephalphonne@hotmail.com<br>
+	iree3257@yahoo.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Anne</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Serena Kiong
+			<br>
+			<span class="text-bold">Phone No: </span>012-3782186
+			<br>
+			<span class="text-bold">Email: </span>serenaymy18@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Jasmin, Pangsapuri Damai Mewah, Taman Bukit Kenangan, Kenangan View Apartment
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Philomena</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Agnes K Reggina
+			<br>
+			<span class="text-bold">Phone No: </span>012-321 5571
+			<br>
+			<span class="text-bold">Email: </span>agnes.k.r@permanis.com.my
+			<br>
+			<span class="text-bold">Coverage: </span> Tmn Damai; Jln Bukit Mewah 28, 29, 44, 45, 46, 48, 52, 54,, 54A, 56, 58, 60, 62; Jalan Jasmin 16; Bukit Mewah Flats Block C & F, Tiara Residence
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Patric</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Veronica Nair
+			<br>
+			<span class="text-bold">Phone No: </span>012-6226088
+			<br>
+			<span class="text-bold">Email: </span>veronica.nair@yahoo.com 
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Kajang Prima, Pangsapuri Prima Cempaka
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

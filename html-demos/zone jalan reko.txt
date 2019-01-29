@@ -1,0 +1,80 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Micheal Yuen
+	<br>
+	019-2077362
+	<br>
+	kaituck88@gmail.com.my
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Mother Teresa</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Steven Arokiasamy
+			<br>
+			<span class="text-bold">Phone No: </span>019-3733768
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Desa Delima, Desa Seroja, Taman Jelita, Taman Mahkota, Taman Hijau
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Theresa</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Alex Tan
+			<br>
+			<span class="text-bold">Phone No: </span>012-2317181
+			<br>
+			<span class="text-bold">Email: </span>alextan1971@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Seri Reko, Taman Reko Jaya, Taman Bangi, Taman Sri Langat
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Anthony</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Luthuramah
+			<br>
+			<span class="text-bold">Phone No: </span>010-2746030
+			<br>
+			<span class="text-bold">Email: </span>LurthuammahArokiasamy@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Tenaga, Taman West Country, Section 5, Perhentian Bas Kajang, Sungai Tangkas, Nadayu and Tropicana
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Jude</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Richard Felix
+			<br>
+			<span class="text-bold">Phone No: </span>013-2042803
+			<br>
+			<span class="text-bold">Email: </span>rachelannrichard@yahoo.com 
+			<br>
+			<span class="text-bold">Coverage: </span> Bandar Baru Bangi, Bangi Perdana, Sg. Merap
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 5: St. Peter</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Sarah Karmila Benedict
+			<br>
+			<span class="text-bold">Phone No: </span>016-2111363
+			<br>
+			<span class="text-bold">Email: </span>sarah.kb.08@gmail.com 
+			<br>
+			<span class="text-bold">Coverage: </span> Bandar Bukit Mahkota, Bandar Seri Putra
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

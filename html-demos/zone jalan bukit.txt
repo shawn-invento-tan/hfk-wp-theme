@@ -1,0 +1,80 @@
+<h5 class="text-bold mb-0">Zone Secretary</h5>
+<p class="mb-4">
+	Margaret Pelly
+	<br>
+	019-2231836
+	<br>
+	margaret@hmc.my
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Mary Magdalene</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Christine Maryanna
+			<br>
+			<span class="text-bold">Phone No: </span>017-6499432
+			<br>
+			<span class="text-bold">Email: </span>cmaryannagabriel@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Upper Taman Bukit Kajang Baru (Jln 4, 13, 14, 15)
+			<br>
+			<span class="text-bold">Language: </span>English<br>
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Timothy</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Paul Lee
+			<br>
+			<span class="text-bold">Phone No: </span>012-3619050
+			<br>
+			<span class="text-bold">Email: </span>leefookchoy@hotmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Lower Taman Bukit Kajang, Taman Bukit Kajang Baru, Taman Bukit Permai (Jalan 2, 3, 4, 6, 7, 10, 12)
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Francis Assisi</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Thomas Tuan
+			<br>
+			<span class="text-bold">Phone No: </span>012-3892500
+			<br>
+			<span class="text-bold">Email: </span>thomas.tuan@pakai.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Bukit Kajang (Lorong Jati, Jati Suasa, Jati Emas, Jati Perak)
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Joseph</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Margaret Pelly
+			<br>
+			<span class="text-bold">Phone No: </span>019-2231836
+			<br>
+			<span class="text-bold">Email: </span>margaret@hmc.my
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Kajang Jaya - Inner (Jalan 3, 4, 5, 6)
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 5: St. Michael</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Stanley Selvanathan
+			<br>
+			<span class="text-bold">Phone No: </span>016-4861275
+			<br>
+			<span class="text-bold">Email: </span>stanleyselvan86@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Kajang Jaya - Outer, Taman Kajang Sentral
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

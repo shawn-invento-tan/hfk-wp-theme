@@ -1,0 +1,24 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Viola Michael
+	<br>
+	013-883 5829
+	<br>
+	violamichael@moh.gov.my
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Peter</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Viola Michael
+			<br>
+			<span class="text-bold">Phone No: </span>013-883 5829
+			<br>
+			<span class="text-bold">Email: </span>violamichael@moh.gov.my
+			<br>
+			<span class="text-bold">Coverage: </span> Putrajaya, Cyberjaya, Dengkil
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

@@ -1,0 +1,94 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Andrew Kannan
+	<br>
+	011-11785494
+	<br>
+	andrewrajk@gmail.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Vincent</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Joyce Melissa
+			<br>
+			<span class="text-bold">Phone No: </span>014-3290525
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Muhibbah
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. George</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Santhanam Elwin
+			<br>
+			<span class="text-bold">Phone No: </span>019-3253681
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Sungai Chua, Taman Kajang Baru, Desa Bunga Raya, Taman Seri Emas
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Joseph</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Micheal Madrigal
+			<br>
+			<span class="text-bold">Phone No: </span>010-4327306
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Kajang Mewah, Taman Semarak, Koop LLN, Taman Impian, Taman Seri Melor, Taman Putra, Section 8 Bdr Baru Bangi
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Peter</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span> Dr Peter Soo
+			<br>
+			<span class="text-bold">Phone No: </span>012-359 5627
+			<br>
+			<span class="text-bold">Email: </span>soomunsing&yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Tmn Cendana, Tmn Hijau, Tmn Kajang Raya, Tmn Berjaya, Taman Setia, Taman Pasir Mas, Taman Sepakat Indah, Taman Taming Emas
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 5: St. Matthew</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Elizabeth Benedict
+			<br>
+			<span class="text-bold">Phone No: </span>014-3679113
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Sg Chua New Village
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 6: St. Sebastian</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Sebastian Thomas
+			<br>
+			<span class="text-bold">Phone No: </span>012-335 0629
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Sri Ramal, Ramal Indah, Permai Air Hitam, Country Heights
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+</div>

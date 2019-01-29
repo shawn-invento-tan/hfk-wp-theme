@@ -1,0 +1,66 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Sandana Dass
+	<br>
+	016-9164220
+	<br>
+	dass6191@yahoo.com.my
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Jude</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Evelyn
+			<br>
+			<span class="text-bold">Phone No: </span>013-3629818
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Sg Jelok, Taman Sentosa, Bukit Chantik
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Xavier</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Catherine George
+			<br>
+			<span class="text-bold">Phone No: </span>014-6239416
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Indah, Taman Berlian
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Bernadette</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>
+			<br>
+			<span class="text-bold">Phone No: </span>
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Megah, Taman Majusatu, Taman Mutiara
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. John</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Puspanathan
+			<br>
+			<span class="text-bold">Phone No: </span>013-3433960
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Kajang Baru, Tmn TTDI Grove
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

@@ -1,8 +1,8 @@
 <?php
     get_header();
-    $currentPriestsFilter = array("category_name"=>"currentpriests");
+    $currentPriestsFilter = array("category_name"=>"currentpriests","posts_per_page"=>99);
     $currentPriestsArray = get_posts($currentPriestsFilter);
-    $pastPriestsFilter = array("category_name"=>"pastpriests");
+    $pastPriestsFilter = array("category_name"=>"pastpriests","posts_per_page"=>99);
     $pastPriestsArray = get_posts($pastPriestsFilter);
 ?>
 <div class="content-container py-5">

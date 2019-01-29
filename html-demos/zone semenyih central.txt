@@ -1,0 +1,80 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Sumalatha Elyas
+	<br>
+	011-31721721
+	<br>
+	suma_latha81@yahoo.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Martin</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Soosai
+			<br>
+			<span class="text-bold">Phone No: </span>017-642 4414
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span>Paling Jaya, Kg Baru, Kg Sireh, Taman Bunga Raya
+			<br>
+			<span class="text-bold">Language: </span>Tamil/Mandarin
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Joachim</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Dominic Klassen
+			<br>
+			<span class="text-bold">Phone No: </span>016-215 0829
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span>Taman Dusun Jaya, Taman Desa Kenanga, Taman Permai
+			<br>
+			<span class="text-bold">Language: </span>English/Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Anthony</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Soosai
+			<br>
+			<span class="text-bold">Phone No: </span>012-278 2846
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span>Taman Bangi Jaya, Taman Sri Semenyih, Taman Semenyih Jaya, Taman Bukit Semenyih, Tmn Semenyih Indah, Tmn PKNS, Tmn Semenyih Mewah (1,2,3)
+			<br>
+			<span class="text-bold">Language: </span>English/Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Paul</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Matthew
+			<br>
+			<span class="text-bold">Phone No: </span>010-369 2360
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span>Kg Batu 3, Jalan Bangi, Dunedin Estate
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 5: St. Mariana</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Catherine
+			<br>
+			<span class="text-bold">Phone No: </span>016-354 1036
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span>Bangi Lama, Tmn Permai Bangi, Tmn Bangi Indah, Tmn Sri Bangi
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+</div>

@@ -1,0 +1,66 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Gerard Pinto
+	<br>
+	016-3582565
+	<br>
+	gepatric@yahoo.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. John</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Michelle Barbara
+			<br>
+			<span class="text-bold">Phone No: </span> 016-3651325
+			<br>
+			<span class="text-bold">Email: </span>barbaraed2@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Section 1, 2, 3, 14, Taming Indah,Flora Green,Cypress,Evergreen & Scotpine Condo,Glencourt Apt,Pigg Taming Indah,Pigg Andalia, Tmn Seri Suria, Tmn Seri Sg Long, Bukit Suria & Bukit Suria 2 & Taman Suria
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Luke</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Simon Kwan
+			<br>
+			<span class="text-bold">Phone No: </span>019-6000905
+			<br>
+			<span class="text-bold">Email: </span>smnkwn@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Section 4 & 13, Ascara Green Acre & Green View Condo,Bukit Sg Long, Admiral Park, Wira Heights,Sejati Hills Villas
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Paul</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Ruphus Paul
+			<br>
+			<span class="text-bold">Phone No: </span>017-881 1806
+			<br>
+			<span class="text-bold">Email: </span>ruphus20@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Section 7 & 8, Taman Bukit Permai, Taman Ikhlas, Tmn Makmur, Forest Garden Condo,Taman Taming Mutiara & Good View
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Peter</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Maria Matilda Steven
+			<br>
+			<span class="text-bold">Phone No: </span>012-2854360
+			<br>
+			<span class="text-bold">Email: </span>smariamatilda@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Section 6 & 9, Palmwalk, 10 & 11, Garden Park Condo
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

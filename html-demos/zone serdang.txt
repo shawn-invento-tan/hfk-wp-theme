@@ -1,0 +1,122 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	John Stephenson
+	<br>
+	012-6240769
+	<br>
+	john.stephenson51@yahoo.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Thomas</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Stephen Adaikalasamy
+			<br>
+			<span class="text-bold">Phone No: </span>017-8836856
+			<br>
+			<span class="text-bold">Email: </span>astephenadaikalasamy@yahoo.com.my 
+			<br>
+			<span class="text-bold">Coverage: </span> Sri Serdang
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Joseph</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Santhanam
+			<br>
+			<span class="text-bold">Phone No: </span>016-6709351
+			<br>
+			<span class="text-bold">Email: </span>shaunthomas71@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Serdang Jaya
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Patrick</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Charles
+			<br>
+			<span class="text-bold">Phone No: </span>016-6280782
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Bukit Serdang
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Ignatius</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Peter Chang
+			<br>
+			<span class="text-bold">Phone No: </span>012-3350483
+			<br>
+			<span class="text-bold">Email: </span>peterchang3350@gmail.com 
+			<br>
+			<span class="text-bold">Coverage: </span> Serdang Raya
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 5: St. Paul</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>William
+			<br>
+			<span class="text-bold">Phone No: </span>018-9488950
+			<br>
+			<span class="text-bold">Email: </span>chiongwilliam@gmail.com 
+			<br>
+			<span class="text-bold">Coverage: </span> Taman University
+			<br>
+			<span class="text-bold">Language: </span>English/Mandarin
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 6: St. Francis Xavier</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Moses sta. Maria
+			<br>
+			<span class="text-bold">Phone No: </span>019-2855225
+			<br>
+			<span class="text-bold">Email: </span>stamariamoses@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Pinggiran Putra
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 7: St. John</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>David Lau
+			<br>
+			<span class="text-bold">Phone No: </span>012-2234498
+			<br>
+			<span class="text-bold">Email: </span>wah_lau2005@yahoo.com.sg
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Putra Permai
+			<br>
+			<span class="text-bold">Language: </span>English/Mandarin
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 8: St. Theresa</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Adriana
+			<br>
+			<span class="text-bold">Phone No: </span>014-6321943
+			<br>
+			<span class="text-bold">Email: </span>Anujessiy@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Equine, Lestari Perdana
+			<br>
+			<span class="text-bold">Language: </span>English/Mandarin
+		</p>
+	</div>
+</div>

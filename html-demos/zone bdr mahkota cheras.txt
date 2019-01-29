@@ -1,0 +1,52 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Mark Anthony
+	<br>
+	016-3912874
+	<br>
+	wit_marck@yahoo.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Joseph</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Pakianathan
+			<br>
+			<span class="text-bold">Phone No: </span>012-3228499
+			<br>
+			<span class="text-bold">Email: </span>nathan@shooklin.com.my
+			<br>
+			<span class="text-bold">Coverage: </span>Section: 5 Bentara, Shahbandar,East Park, 6 Permaisuri, Seri Hijau Condo, 8 Dayang, East Park
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Faustina</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Robert Mickel
+			<br>
+			<span class="text-bold">Phone No: </span>017-3200301
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span>Section: 3 Penghulu, Vista Mahkota, Pangsapuri Mahkota, Pahlawan, Cheras Vista, Vistana Mahkota, Suria Residance 
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Michael</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Hazrena
+			<br>
+			<span class="text-bold">Phone No: </span>014-5595859
+			<br>
+			<span class="text-bold">Email: </span>adyrobert93@gmail.com.my
+			<br>
+			<span class="text-bold">Coverage: </span>Section: Tmn Mahkota, 1 Putra, 2 Penggawa, L7, Pangsapuri Angsana, 7 Temenggong,7 Bendahara, 9 Inang
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

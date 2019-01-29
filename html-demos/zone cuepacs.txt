@@ -1,0 +1,38 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Lourdasamy
+	<br>
+	013-3948697
+	<br>
+	richi_ricard@hotmail.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. John</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Luees David
+			<br>
+			<span class="text-bold">Phone No: </span>016-2440853
+			<br>
+			<span class="text-bold">Email: </span>lopezjt48@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Tmn Desa Baru (Jln 3); Tmn Koperasi Cuepacs (Jln 1, 1B, 1C, 2, 2B, 4, 4B, 4C, 4D, 4F, 4H); Jalan Persiaran Cuepacs 2B; Taman Kurnia Indah
+			<br>
+			<span class="text-bold">Language: </span>English<br>
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Peter</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>John Gregory
+			<br>
+			<span class="text-bold">Phone No: </span>016-2411470
+			<br>
+			<span class="text-bold">Email: </span>victoria@autolivhirotako.com.my
+			<br>
+			<span class="text-bold">Coverage: </span> Tmn Koperasi Cuepacs (Jln 5, 5A, 5B, 5C, 5I, 5J); Taman Rakan (Jln 4, 5, 6, 9); Jalan Idaman 2 & 3, Taman Cuepacs Idaman; Jalan 3 Taman Sekamat; Lot 434/20A, Batu 12, Jalan Cheras; Taman Delima (Jln 5, 6, 7); Taman Muhibbah (Jln 5), Taman Cheras Prima, Taman Sutera 
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

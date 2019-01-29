@@ -1,0 +1,66 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Wilson Sebastian
+	<br>
+	016-2205693
+	<br>
+	s.wilson@u.com.my
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Jude</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Vincent Yoong
+			<br>
+			<span class="text-bold">Phone No: </span>012-2869684
+			<br>
+			<span class="text-bold">Email: </span>vinyoong@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Desa Mewah 
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Martin</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Abraham Sinnappan
+			<br>
+			<span class="text-bold">Phone No: </span>014-3378991
+			<br>
+			<span class="text-bold">Email: </span>sara_abramab9@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Tmn Hiew Piaw, Tmn Aik Aun, Tmn Utama, Tmn Semenyih, tmn Sahabat, Taman Desa Semenyih
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Joseph</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Jomala Arokiasamy
+			<br>
+			<span class="text-bold">Phone No: </span>012-655 9019
+			<br>
+			<span class="text-bold">Email: </span>jenetiza@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Sri Tanjung, Jalan Kachau, Tmn Tasik Semenyih, Jalan Seremban, 
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Francis of Assisi</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Johnson Mosses
+			<br>
+			<span class="text-bold">Phone No: </span>019-3560920
+			<br>
+			<span class="text-bold">Email: </span>m.johnson.moses@simedarby.com
+			<br>
+			<span class="text-bold">Coverage: </span>Taman Sunway Semenyih
+			<br>
+			<span class="text-bold">Language: </span>English/BM/Tamil
+		</p>
+	</div>
+</div>

@@ -1,0 +1,80 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	G.Dass
+	<br>
+	013-6063807
+	<br>
+	dass@mewahgroup.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. John Vianney</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Fatima Thomas
+			<br>
+			<span class="text-bold">Phone No: </span>012-3981174
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Manikavasakam, Bandar Rinching
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Gabriel</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Thomas Santiavoo
+			<br>
+			<span class="text-bold">Phone No: </span>017-6697421
+			<br>
+			<span class="text-bold">Email: </span>shaunthomas71@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Bandar Rinching (Sec 1,2,3,4))
+			<br>
+			<span class="text-bold">Language: </span>English/Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Thomas</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Sagayamary K Raja
+			<br>
+			<span class="text-bold">Phone No: </span>012-2489778
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Bandar Rinching (Sec 5), Taman Pelangi Semenyih
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. John</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Martin Anthony 
+			<br>
+			<span class="text-bold">Phone No: </span>016-2166485
+			<br>
+			<span class="text-bold">Email: </span>skn1965@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Bandar Tasik Kesuma, Beranang
+			<br>
+			<span class="text-bold">Language: </span>English/Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 5: St. Anne</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Rose Ng
+			<br>
+			<span class="text-bold">Phone No: </span>012-3739887
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Broga
+			<br>
+			<span class="text-bold">Language: </span>Mandarin
+		</p>
+	</div>
+</div>

@@ -1,0 +1,77 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Suraj
+	<br>
+	012-3275902
+	<br>
+	surajdass75@gmail.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Mark</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Eugene
+			<br>
+			<span class="text-bold">Phone No: </span>012-3257735
+			<br>
+			<span class="text-bold">Email: </span>eugenealphoneso@hotmail.com
+			<br>
+			<span class="text-bold">Coverage: </span>Tmn Restu, Tmn Jelok Indah, Tmn Sri Jelok, Tmn Jelok Ria
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Catherine</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Suraj Raphael Dass<br>
+			<span class="text-bold">Phone No: </span>012-3275902<br>
+			<span class="text-bold">Email: </span>surajdass75@gmail.com<br>
+			<span class="text-bold">Coverage: </span>Taman Asa Jaya, Taman Maju, Villa Heights
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Francis Asisi</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Victor
+			<br>
+			<span class="text-bold">Phone No: </span>012-2767681
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Bandar Teknologi, Taman Harmoni, Anggerik Villa
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Margaret</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Jordhana Joseph
+			<br>
+			<span class="text-bold">Phone No: </span>012-7726172
+			<br>
+			<span class="text-bold">Email: </span>jordhana72@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span>Taman Kajang Perdana, Taman Sri Damai, Taman Sakapp
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 5: St. Michael</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Christe
+			<br>
+			<span class="text-bold">Phone No: </span>012-3260125
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span>Taman Jelok Impian
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

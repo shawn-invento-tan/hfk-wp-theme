@@ -1,6 +1,6 @@
 <?php
     get_header();
-    $becFilter = array("category_name"=>"becinfo","order"=>"ASC");
+    $becFilter = array("category_name"=>"becinfo","order"=>"ASC","posts_per_page"=>200);
     $becArray = get_posts($becFilter);
 ?>
 <script>

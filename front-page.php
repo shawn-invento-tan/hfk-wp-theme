@@ -4,6 +4,55 @@
     $pastEventsArray = get_posts($pastEventFilters);
     $siteRoot = get_site_url();
     $themeRoot= get_template_directory_uri();
+    
+    $englishBulletin = GetBulletin("Bulletin_EN");
+    if($englishBulletin=="#"){
+        $englishHref="";
+        $englishBtnType="btn-outline-danger text-danger";
+        $englishButtonText="NOT AVAILABLE";
+    }
+    else{
+        $englishHref="href=\"".$englishBulletin."\"";
+        $englishBtnType="btn-outline-secondary";
+        $englishButtonText="DOWNLOAD";
+    }
+    
+    $tamilBulletin = GetBulletin("Bulletin_TM");
+    if($tamilBulletin=="#"){
+        $tamilHref="";
+        $tamilBtnType="btn-outline-danger text-danger";
+        $tamilButtonText="NOT AVAILABLE";
+    }
+    else{
+        $tamilHref="href=\"".$tamilBulletin."\"";
+        $tamilBtnType="btn-outline-secondary";
+        $tamilButtonText="DOWNLOAD";
+    }
+
+    $mandarinBulletin = GetBulletin("Bulletin_MND");
+    if($mandarinBulletin=="#"){
+        $mandarinHref="";
+        $mandarinBtnType="btn-outline-danger text-danger";
+        $mandarinButtonText="NOT AVAILABLE";
+    }
+    else{
+        $mandarinHref="href=\"".$mandarinBulletin."\"";
+        $mandarinBtnType="btn-outline-secondary";
+        $mandarinButtonText="DOWNLOAD";
+    }
+    
+    $bmBulletin = GetBulletin("Bulletin_BM");
+    if($bmBulletin=="#"){
+        $bmHref="";
+        $bmBtnType="btn-outline-danger text-danger";
+        $bmButtonText="NOT AVAILABLE";
+    }
+    else{
+        $bmHref="href=\"".$bmBulletin."\"";
+        $bmBtnType="btn-outline-secondary";
+        $bmButtonText="DOWNLOAD";
+    }
+
 ?>
 <div id="Slider" style="position:relative">
     <div>
@@ -191,25 +240,25 @@
             <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
                 <h5 class="text-bold">English</h5>
                 <div>
-                    <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+                    <a <?=$englishHref?> target="_blank" class="btn <?=$englishBtnType?>"><?=$englishButtonText?></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
                 <h5 class="text-bold">Tamil</h5>
                 <div>
-                    <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+                    <a <?=$tamilHref?> target="_blank" class="btn <?=$tamilBtnType?>"><?=$tamilButtonText?></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
                 <h5 class="text-bold">Mandarin</h5>
                 <div>
-                    <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+                    <a <?=$mandarinHref?> target="_blank" class="btn <?=$mandarinBtnType?>"><?=$mandarinButtonText?></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
                 <h5 class="text-bold">Bahasa Malaysia</h5>
                 <div>
-                    <a href="#" target="_blank" class="btn btn-outline-secondary">DOWNLOAD</a>
+                    <a <?=$bmHref?> target="_blank" class="btn <?=$bmBtnType?>"><?=$bmButtonText?></a>
                 </div>
             </div>
         </div>

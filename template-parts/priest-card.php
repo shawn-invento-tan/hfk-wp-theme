@@ -9,7 +9,6 @@
         </div>
         <div class="card-body border-top text-center">
             <div class="text-bold">
-                <?=$hasThumbnail?>
                 <a href="<?=$postURL?>"><?=$postTitle?></a>
             </div>
             <div>

@@ -25,25 +25,16 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                 <p>
-                    <h5 class="text-bold">BEC 3: St. Francis Asisi</h5>
-                    <span class="text-bold">Coordinator: </span>Suraj Raphael Dass<br>
-                    <span class="text-bold">Phone No: </span>012-3275902<br>
-                    <span class="text-bold">Email: </span>surajdass75@gmail.com<br>
-                    <span class="text-bold">Coverage: </span>Taman Asa Jaya, Taman Maju, Villa Heights
-                </p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <p>
-                    <h5 class="text-bold">BEC 5: St. Michael</h5>
-                    <span class="text-bold">Coordinator: </span>Suraj Raphael Dass<br>
-                    <span class="text-bold">Phone No: </span>012-3275902<br>
-                    <span class="text-bold">Email: </span>surajdass75@gmail.com<br>
-                    <span class="text-bold">Coverage: </span>Taman Asa Jaya, Taman Maju, Villa Heights
-                </p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <p>
                     <h5 class="text-bold">BEC 2: St. Catherine</h5>
+                    <span class="text-bold">Coordinator: </span>Suraj Raphael Dass<br>
+                    <span class="text-bold">Phone No: </span>012-3275902<br>
+                    <span class="text-bold">Email: </span>surajdass75@gmail.com<br>
+                    <span class="text-bold">Coverage: </span>Taman Asa Jaya, Taman Maju, Villa Heights
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <p>
+                    <h5 class="text-bold">BEC 3: St. Francis Asisi</h5>
                     <span class="text-bold">Coordinator: </span>Suraj Raphael Dass<br>
                     <span class="text-bold">Phone No: </span>012-3275902<br>
                     <span class="text-bold">Email: </span>surajdass75@gmail.com<br>
@@ -59,6 +50,17 @@
                     <span class="text-bold">Coverage: </span>Taman Asa Jaya, Taman Maju, Villa Heights
                 </p>
             </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <p>
+                    <h5 class="text-bold">BEC 5: St. Michael</h5>
+                    <span class="text-bold">Coordinator: </span>Suraj Raphael Dass<br>
+                    <span class="text-bold">Phone No: </span>012-3275902<br>
+                    <span class="text-bold">Email: </span>surajdass75@gmail.com<br>
+                    <span class="text-bold">Coverage: </span>Taman Asa Jaya, Taman Maju, Villa Heights
+                </p>
+            </div>
+            
+            
         </div>--->
     </div>
 </div>

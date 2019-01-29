@@ -1,0 +1,80 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Paul Chong
+	<br>
+	012-3343829
+	<br>
+	ccfpaul@gmail.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Bridget</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>James Thomas
+			<br>
+			<span class="text-bold">Phone No: </span>012-319 1223
+			<br>
+			<span class="text-bold">Email: </span>lopezjt48@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> CP 1, 2, Cheras Perdana Apartment / Taman Megah 2
+			<br>
+			<span class="text-bold">Language: </span>English<br>
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Philomena</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Victoria Lorsamy
+			<br>
+			<span class="text-bold">Phone No: </span>016-235 6448
+			<br>
+			<span class="text-bold">Email: </span>victoria@autolivhirotako.com.my
+			<br>
+			<span class="text-bold">Coverage: </span> CP 3, 4, 5, 8, PH
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Jude</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Mary Ann Basnayake
+			<br>
+			<span class="text-bold">Phone No: </span>013-206 0530
+			<br>
+			<span class="text-bold">Email: </span>mab.kaya88@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> CP 6, 7; Taman Kasturi
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Paul</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Paul Chong
+			<br>
+			<span class="text-bold">Phone No: </span>012-334 3829
+			<br>
+			<span class="text-bold">Email: </span>ccfpaul@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Bandar Tun Hussein Onn, Vina Residency
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 5: St. Peter</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Oswald Bidin
+			<br>
+			<span class="text-bold">Phone No: </span>013-393 7945
+			<br>
+			<span class="text-bold">Email: </span>kijangmati@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Indah, Cheras Jaya
+			<br>
+			<span class="text-bold">Language: </span>BM
+		</p>
+	</div>
+</div>

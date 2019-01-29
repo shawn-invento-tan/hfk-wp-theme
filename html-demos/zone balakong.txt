@@ -1,0 +1,80 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Paul Nickson
+	<br>
+	012-6515777
+	<br>
+	ppn2025@gmail.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Anthony</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Dominic Tey
+			<br>
+			<span class="text-bold">Phone No: </span>011-20088053
+			<br>
+			<span class="text-bold">Email: </span>domtsh75@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Tmn Desa Karunmas, Tmn Impian Ehsan, Tmn Setia Balakong, Taman Sinaran
+			<br>
+			<span class="text-bold">Language: </span>English<br>
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. John Vianney</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Michael Ong
+			<br>
+			<span class="text-bold">Phone No: </span>019 2299923
+			<br>
+			<span class="text-bold">Email: </span>michael_ops@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span>Taman Taming Jaya
+			<br>
+			<span class="text-bold">Language: </span>Mandarin
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Joseph</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Joseph Shanmugam
+			<br>
+			<span class="text-bold">Phone No: </span>013-3424201
+			<br>
+			<span class="text-bold">Email: </span>blueheaven_22@yahoo.com 
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Bukit Belimbing, Belimbing Heights, Taman Harmoni Indah, Taman Juara Jaya, Taman Seri Belimbing
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Theresa</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Alvin Victor
+			<br>
+			<span class="text-bold">Phone No: </span>017 7187476
+			<br>
+			<span class="text-bold">Email: </span>alvin.victor@tetrapak.com
+			<br>
+			<span class="text-bold">Coverage: </span> Tmn Puncak Utama, Tmn Balakong Jaya, Bukit Gita Bayu, Taman Desa Serdang, Taman Putra Budiman, Pangsapuri Seri Pulai
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 5: St. Jude</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>
+			<br>
+			<span class="text-bold">Phone No: </span>
+			<br>
+			<span class="text-bold">Email: </span>Just1gibson@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Sg Besi Indah, Taman Sri Timah
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

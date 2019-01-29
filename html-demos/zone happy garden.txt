@@ -1,0 +1,66 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Thomas Kathiraveloo
+	<br>
+	019-3433225
+	<br>
+	thomas.thira@gmail.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Faith</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Veronica Tan
+			<br>
+			<span class="text-bold">Phone No: </span>012-3784439
+			<br>
+			<span class="text-bold">Email: </span>veronicasctan47@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span> Desa Ros, Taman Intan, Sungai Kantan, Taman Desa Impian
+			<br>
+			<span class="text-bold">Language: </span>English<br>
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Sophia</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>David Chin
+			<br>
+			<span class="text-bold">Phone No: </span>016-2856936
+			<br>
+			<span class="text-bold">Email: </span>chinlochie@gmail.com
+			<br>
+			<span class="text-bold">Coverage: </span>Taman Saujana Impian, Taman Cheras, Batu 13, Taman Impian Murni, Pangsapuri Makmur Saujana Impian, Impian Gemilang Saujana Impian.
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Charity</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Arokiamary Dass
+			<br>
+			<span class="text-bold">Phone No: </span>014-2257813
+			<br>
+			<span class="text-bold">Email: </span>dasmary2805@ yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Desa Sri Jenaris, Taman Pinggiran Saujana, Taman Taming Impian, Taman Prima Saujana, Taman Puncak Saujana, Taman Kantan Permai.Taman Saujana Emas.
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Hope</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Marilyn Gerard
+			<br>
+			<span class="text-bold">Phone No: </span>012-3748371
+			<br>
+			<span class="text-bold">Email: </span>marilyncheryl@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Kajang Mulia, Taman Sri Minang, Taman Angkasa Indah, Taman Santosa Villa
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

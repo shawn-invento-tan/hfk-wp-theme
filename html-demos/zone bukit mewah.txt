@@ -1,0 +1,52 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	William Peter
+	<br>
+	019-6637084
+	<br>
+	will43my@yahoo.com
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. John</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>William Peter
+			<br>
+			<span class="text-bold">Phone No: </span>019-6637084
+			<br>
+			<span class="text-bold">Email: </span>will43my@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Bukit Mewah (Jln 1, 2, 31A, 32, 33, 35, 37); Mewah Court, Condo, Taman Sri Bukit, Taman Bukit Indah
+			<br>
+			<span class="text-bold">Language: </span>English<br>
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Matthew</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>David Marshall
+			<br>
+			<span class="text-bold">Phone No: </span>012-9281595
+			<br>
+			<span class="text-bold">Email: </span>david95@yes.my
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Bukit Mewah (Jln 3, 4, 8, 13, 16, 17, 18); Jalan Kelapa
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Luke</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Cecelia Thomas
+			<br>
+			<span class="text-bold">Phone No: </span>017-2693149
+			<br>
+			<span class="text-bold">Email: </span>blueheaven_22@yahoo.com 
+			<br>
+			<span class="text-bold">Coverage: </span> Taman Bukit Mutiara, Bukit Mutiara Condo, Taman Zamrud, Bukit Ria Apartment, Taman Bukit Mewah (Jln 19, 21, 22, 23, 27)
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+</div>

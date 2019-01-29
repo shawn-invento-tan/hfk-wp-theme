@@ -1,0 +1,78 @@
+<h5 class="text-bold mb-0">Zone Leader</h5>
+<p class="mb-4">
+	Logan
+	<br>
+	019-6640357
+</p>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 1: St. Helen</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Janet Rosehelton
+			<br>
+			<span class="text-bold">Phone No: </span>016-3620227
+			<br>
+			<span class="text-bold">Email: </span>rosshelton71@yahoo.com
+			<br>
+			<span class="text-bold">Coverage: </span> Jalan Pekeliling Aman
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 2: St. Joseph</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Savariyamah
+			<br>
+			<span class="text-bold">Phone No: </span>017-2541128
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Jalan Tenteram, Flat, Townhouse, Citra Flat 
+			<br>
+			<span class="text-bold">Language: </span>Tamil
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 3: St. Luke</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>S.Selvaraja
+			<br>
+			<span class="text-bold">Phone No: </span>012-4553662
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Persiaran Damai, Section 2 & 3
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12"> 
+		<h5 class="text-bold mb-0">BEC 4: St. Mark</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Adaikalasamy
+			<br>
+			<span class="text-bold">Phone No: </span>012-3927047
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span>Cemara Apartmt, Seraya Apartmt, Pesona Apartmt, Sri Sutera Apartmt, Bukit Mewah Phase 8; Taman Seri Mewah 
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+		<h5 class="text-bold mb-0">BEC 5: St. Paul</h5>
+		<p class="mb-4">
+			<span class="text-bold">Coordinator: </span>Robert K.Logan
+			<br>
+			<span class="text-bold">Phone No: </span>019-6640357
+			<br>
+			<span class="text-bold">Email: </span>
+			<br>
+			<span class="text-bold">Coverage: </span> Bukit Mewah Phase 7, 9 & 10
+			<br>
+			<span class="text-bold">Language: </span>English
+		</p>
+	</div>
+</div>

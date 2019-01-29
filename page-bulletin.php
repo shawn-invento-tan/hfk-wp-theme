@@ -2,11 +2,17 @@
     get_header();
     $announcementFilters = array("category_name"=>"bulletin");
     $announcementArray = get_posts($announcementFilters);
+    
+    $englishBulletin = GetBulletin("Bulletin_EN");
+    $tamilBulletin = GetBulletin("Bulletin_TM");
+    $mandarinBulletin = GetBulletin("Bulletin_MND");
+    $bmBulletin = GetBulletin("Bulletin_BM");
 ?>
 <div class="content-container py-5">
     <h1 class="text-bold text-center mb-4">Bulletin</h1>
     <div class="row justify-content-between">
         <div class="col-lg-8 col-md-8 col-sm-12 col-12 col-bottom-fix">
+            
             <?php
                 if($announcementArray){
                     foreach($announcementArray as $announcement) : setup_postdata($announcement);
@@ -46,11 +52,11 @@
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-12 col-bottom-fix text-lg-left text-md-left text-sm-center text-center">
             <h5 class="text-bold mb-2">Get your copy</h5>
-            <div class="list-group mb-4">
-                <a href="#" class="list-group-item">English</a>
-                <a href="#" class="list-group-item">Tamil</a>
-                <a href="#" class="list-group-item">Mandarin</a>
-                <a href="#" class="list-group-item">Bahasa Malaysia</a>
+            <div class="list-group mb-4 text-bold">
+                <a href="<?=$englishBulletin?>" target="_blank" class="list-group-item">English</a>
+                <a href="<?=$tamilBulletin?>" target="_blank" class="list-group-item">Tamil</a>
+                <a href="<?=$mandarinBulletin?>" target="_blank" class="list-group-item">Mandarin</a>
+                <a href="<?=$bmBulletin?>" target="_blank" class="list-group-item">Bahasa Malaysia</a>
             </div>
             <h5 class="text-bold mb-2">Have something to post?</h5>
             <p>

@@ -1,0 +1,92 @@
+<h3 class="text-bold text-center mb-3">Ministry Heads</h3>
+<div class="row text-center">
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+        <h5 class="text-bold mb-0">Catechetical</h5>
+        <p>
+            Mary Madhi
+            <br>
+            alphonsamariadass@gmail.com
+            <br>
+            012-3000150
+        </p>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+        <h5 class="text-bold mb-0">RCIA (English)</h5>
+        <p>
+            Anthony Alan Lukose
+            <br>
+            anthony.alan.lukose@gmail.com
+            <br>
+            012-2037874
+        </p>
+    </div>
+    
+    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+        <h5 class="text-bold mb-0">Legion Of Mary</h5>
+        <p>
+            Patricia Roy
+            <br>
+            patriciaroy82@yahoo.com
+            <br>
+            016-6144681
+        </p>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+        <h5 class="text-bold mb-0">PMIEA</h5>
+        <p>
+            Nirmala Lingam
+            <br>
+            dniramala@yahoo.com
+            <br>
+            011-18580377
+        </p>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+        <h5 class="text-bold mb-0">Youth</h5>
+        <p>
+            Pravindran Joel
+            <br>
+            pravin_hsm22@yahoo.com
+            <br>
+            010-2518371
+        </p>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+        <h5 class="text-bold mb-0">Liturgical</h5>
+        <p>
+            Alfred Netto
+            <br>
+            alfrednetto@gmail.com
+            <br>
+            016-3114746
+        </p>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+        <h5 class="text-bold mb-0">SWAM</h5>
+        <p>
+            Tony Shamesan
+            <br>
+            tonyshamesan86@gmail.com
+            <br>
+            016-6207214
+        </p>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+            <h5 class="text-bold mb-0">Property Management</h5>
+            <p>
+                K.Selvanathan
+                <br>
+                selva@pbh.com.my
+                <br>
+                012-3140025
+            </p>
+        </div>
+
+</div>
