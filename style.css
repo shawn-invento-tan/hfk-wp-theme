@@ -305,3 +305,22 @@ html { margin-top: 0px !important; }
     padding-left:1.25rem;
     padding-right:1.25rem;
 }
+.priest-card{
+    border-radius:0px;
+    border:none;
+    text-align:center;
+}
+.priest-card a{
+    text-decoration:none;
+    color:rgba(0,0,0,1);
+}
+
+.priest-card .card-body{
+    border:none;
+}
+.priest-card:hover a{
+    color:rgba(0,0,0,0.6);
+}
+.goto{
+    cursor: pointer;
+}

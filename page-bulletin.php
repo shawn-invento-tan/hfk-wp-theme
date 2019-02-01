@@ -4,9 +4,52 @@
     $announcementArray = get_posts($announcementFilters);
     
     $englishBulletin = GetBulletin("Bulletin_EN");
+    if($englishBulletin=="#"){
+        $englishHref="";
+        $englishBtnType="btn-outline-danger text-danger";
+        $englishButtonText="NOT AVAILABLE";
+    }
+    else{
+        $englishHref="href=\"".$englishBulletin."\"";
+        $englishBtnType="btn-outline-secondary";
+        $englishButtonText="DOWNLOAD";
+    }
+
     $tamilBulletin = GetBulletin("Bulletin_TM");
+    if($tamilBulletin=="#"){
+        $tamilHref="";
+        $tamilBtnType="btn-outline-danger text-danger";
+        $tamilButtonText="NOT AVAILABLE";
+    }
+    else{
+        $tamilHref="href=\"".$tamilBulletin."\"";
+        $tamilBtnType="btn-outline-secondary";
+        $tamilButtonText="DOWNLOAD";
+    }
+
     $mandarinBulletin = GetBulletin("Bulletin_MND");
+    if($mandarinBulletin=="#"){
+        $mandarinHref="";
+        $mandarinBtnType="btn-outline-danger text-danger";
+        $mandarinButtonText="NOT AVAILABLE";
+    }
+    else{
+        $mandarinHref="href=\"".$mandarinBulletin."\"";
+        $mandarinBtnType="btn-outline-secondary";
+        $mandarinButtonText="DOWNLOAD";
+    }
+
     $bmBulletin = GetBulletin("Bulletin_BM");
+    if($bmBulletin=="#"){
+        $bmHref="";
+        $bmBtnType="btn-outline-danger text-danger";
+        $bmButtonText="NOT AVAILABLE";
+    }
+    else{
+        $bmHref="href=\"".$bmBulletin."\"";
+        $bmBtnType="btn-outline-secondary";
+        $bmButtonText="DOWNLOAD";
+    }
 ?>
 <div class="content-container py-5">
     <h1 class="text-bold text-center mb-4">Bulletin</h1>
@@ -53,10 +96,10 @@
         <div class="col-lg-3 col-md-3 col-sm-12 col-12 col-bottom-fix text-lg-left text-md-left text-sm-center text-center">
             <h5 class="text-bold mb-2">Get your copy</h5>
             <div class="list-group mb-4 text-bold">
-                <a href="<?=$englishBulletin?>" target="_blank" class="list-group-item">English</a>
-                <a href="<?=$tamilBulletin?>" target="_blank" class="list-group-item">Tamil</a>
-                <a href="<?=$mandarinBulletin?>" target="_blank" class="list-group-item">Mandarin</a>
-                <a href="<?=$bmBulletin?>" target="_blank" class="list-group-item">Bahasa Malaysia</a>
+                <a <?=$englishHref?> target="_blank" class="list-group-item">English</a>
+                <a <?=$tamilHref?> target="_blank" class="list-group-item">Tamil</a>
+                <a <?=$mandarinHref?> target="_blank" class="list-group-item">Mandarin</a>
+                <a <?=$bmHref?> target="_blank" class="list-group-item">Bahasa Malaysia</a>
             </div>
             <h5 class="text-bold mb-2">Have something to post?</h5>
             <p>
