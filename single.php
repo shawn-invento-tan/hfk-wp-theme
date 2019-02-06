@@ -14,6 +14,9 @@
             else if(has_category("event_writeup")){
                 include("template-parts/single-content-event-writeup.php");
             }
+            else if(has_category("news")){
+                include("template-parts/single-content-news.php");
+            }
             else if (has_category("currentpriests") || has_category("pastpriests")){
                 include("template-parts/priest-about.php");
             }

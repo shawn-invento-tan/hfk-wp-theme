@@ -1,13 +1,13 @@
 <?php
     get_header();
-    $eventWriteupFilters = array("category_name"=>"event");
+    $eventWriteupFilters = array("category_name"=>"news");
     $eventWriteupArray = get_posts($eventWriteupFilters);
 ?>
 <div class="content-container py-5">
-    <h1 class="text-bold text-center">Events</h1>
-    <h5 class="text-center mb-4">Find out the latest happenings in Holy Family Kajang</h5>
+    <h1 class="text-bold text-center">News</h1>
+    <h5 class="text-center mb-4">Find out the latest news and stories in Holy Family Kajang</h5>
     <div class="row justify-content-between">
-        <div class="col-lg-8 col-md-8 col-sm-12 col-12 col-bottom-fix">
+        <div class="col-lg-8 col-md-7 col-sm-12 col-12 col-bottom-fix">
             <?php
                 if($eventWriteupArray){
                     foreach($eventWriteupArray as $eventWriteup) : setup_postdata($eventWriteup);
@@ -22,7 +22,7 @@
                         $thumbNailID = get_post_thumbnail_id($eventWriteup -> ID);
                         $croppedThumbnailSrc=wp_get_attachment_image_src($thumbNailID,"aspect-ratio-1-1")[0];
                         $postThumbnail = get_the_post_thumbnail($eventWriteup -> ID,'aspect-ratio-1-1');
-                        include("template-parts/event-item-template.php");
+                        include("template-parts/news-item-template.php");
                     endforeach;
                 }
             ?>
@@ -82,10 +82,10 @@
                 </div>
             </div>--->
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-12 col-bottom-fix text-lg-left text-md-left text-sm-center text-center">
+        <div class="col-lg-3 col-md-4 col-sm-12 col-12 col-bottom-fix text-lg-left text-md-left text-sm-center text-center">
             <h5 class="text-bold">Want to submit your article?</h5>
             <p>
-                Email your article to us at <b>editor@hfckajang.org.my</b> or WhatsApp us at <b>012-2085590</b>
+                Email your article to us at <b>hfk.socialcomm@gmail.com</b>
             </p>
             <p>
             

@@ -54,7 +54,7 @@
 <div class="content-container py-5">
     <h1 class="text-bold text-center mb-4">Bulletin</h1>
     <div class="row justify-content-between">
-        <div class="col-lg-8 col-md-8 col-sm-12 col-12 col-bottom-fix">
+        <div class="col-lg-8 col-md-7 col-sm-12 col-12 col-bottom-fix">
             
             <?php
                 if($announcementArray){
@@ -93,7 +93,7 @@
                 <hr>
             </div>--->
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-12 col-bottom-fix text-lg-left text-md-left text-sm-center text-center">
+        <div class="col-lg-3 col-md-4 col-sm-12 col-12 col-bottom-fix text-lg-left text-md-left text-sm-center text-center">
             <h5 class="text-bold mb-2">Get your copy</h5>
             <div class="list-group mb-4 text-bold">
                 <a <?=$englishHref?> target="_blank" class="list-group-item">English</a>
@@ -103,9 +103,7 @@
             </div>
             <h5 class="text-bold mb-2">Have something to post?</h5>
             <p>
-                Email your bulletin post to us at <b>editor@hfckajang.org.my</b> or WhatsApp us at <b>012-2085590</b>. 
-                Please send us your full name, title and the content of your post. If you are sending images, send them as separate attachments. Do not paste them into the Microsoft Word document.
-                Our full posting guidelines are available <a href="<?=$siteRoot?>/posting-guidelines">here</a>
+                Email your bulletin post to us at <b>hfk.socialcomm@gmail.com</b>
             </p>
         </div>
     </div>

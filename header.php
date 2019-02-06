@@ -34,12 +34,18 @@
                     var location = $(this).find("a").attr("href");
                     window.location.href=location;
                 })
+                $("#MassTimesButton").on("click",function(){
+                    var scrollHeight=$("#Slider").outerHeight();
+                    $("html,body").animate({
+                        scrollTop:scrollHeight+2
+                    },"slow");
+                })
             })
         </script>
     </head>
     <body>
         <input type="hidden" id="siteRoot" value="<?=$siteRoot?>">
-        <div class="pageheader border-bottom">
+        <div id="PageHeader" class="pageheader border-bottom">
             <div class="content-container h-100">
                 <div class="pageheader-navbar">
                     <div class="pageheader-logo">
@@ -48,7 +54,7 @@
                     </div>
                     <div class="pageheader-menu-lg text-bold">
                         <a class="mx-2" href="<?=$siteRoot?>">Home</a>
-                        <a class="mx-2" href="<?=$siteRoot?>/events">Events</a>
+                        <a class="mx-2" href="<?=$siteRoot?>/news">News</a>
                         <a class="mx-2" href="<?=$siteRoot?>/clusters">Clusters</a>
                         <a class="mx-2" href="<?=$siteRoot?>/bulletin">Bulletin</a>
                         <a class="mx-2" href="<?=$siteRoot?>/bec">BEC</a>

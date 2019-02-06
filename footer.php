@@ -33,6 +33,9 @@
                             <a href="<?=$siteRoot?>/parish-coordinating-council">Parish Coordinating Council</a>
                         </div>
                         <div>
+                            <a href="<?=$siteRoot?>/parish-financial-council">Parish Financial Council</a>
+                        </div>
+                        <div>
                             <a href="<?=$siteRoot?>/parish-history">Parish History</a>
                         </div>
                         <div>
@@ -68,7 +71,7 @@
                 <div class="modal-content rounded-0 text-center text-bold">
                     <div class="list-group">
                         <a href="<?=$siteRoot?>/" class="list-group-item">Home</a>
-                        <a href="<?=$siteRoot?>/events" class="list-group-item">Events</a>
+                        <a href="<?=$siteRoot?>/news" class="list-group-item">News</a>
                         <a href="<?=$siteRoot?>/clusters" class="list-group-item">Clusters</a>
                         <a href="<?=$siteRoot?>/bulletin" class="list-group-item">Bulletin</a>
                         <a href="<?=$siteRoot?>/bec" class="list-group-item">BEC</a>
