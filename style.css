@@ -359,3 +359,13 @@ a.link-black:hover{
     opacity:0.7;
     color:white;
 }
+.description-card{
+    border:none;
+}
+.description-card .card-body{
+    padding-left:0px;
+    padding-right:0px;
+}
+.description-card h5{
+    font-weight:bold;
+}
