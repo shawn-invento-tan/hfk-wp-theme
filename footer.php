@@ -9,8 +9,6 @@
                         <div>hfckajang@gmail.com</div>
                         <div class="text-bold">Phone Number</div>
                         <div>+603 87331154</div>
-                        <div class="text-bold">Fax</div>
-                        <div>+603 87330471</div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-12 col-bottom-fix">
                         <div class="text-bold">Follow Us</div>
@@ -33,7 +31,7 @@
                             <a href="<?=$siteRoot?>/parish-coordinating-council">Parish Coordinating Council</a>
                         </div>
                         <div>
-                            <a href="<?=$siteRoot?>/parish-financial-council">Parish Financial Council</a>
+                            <a href="<?=$siteRoot?>/parish-finance-council">Parish Finance Council</a>
                         </div>
                         <div>
                             <a href="<?=$siteRoot?>/parish-history">Parish History</a>

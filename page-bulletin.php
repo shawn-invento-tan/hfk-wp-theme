@@ -96,10 +96,10 @@
         <div class="col-lg-3 col-md-4 col-sm-12 col-12 col-bottom-fix text-lg-left text-md-left text-sm-center text-center">
             <h5 class="text-bold mb-2">Get your copy</h5>
             <div class="list-group mb-4 text-bold">
-                <a <?=$englishHref?> target="_blank" class="list-group-item">English</a>
-                <a <?=$tamilHref?> target="_blank" class="list-group-item">Tamil</a>
-                <a <?=$mandarinHref?> target="_blank" class="list-group-item">Mandarin</a>
-                <a <?=$bmHref?> target="_blank" class="list-group-item">Bahasa Malaysia</a>
+                <a <?=$englishHref?> target="_blank" download class="list-group-item">English</a>
+                <a <?=$tamilHref?> target="_blank" download class="list-group-item">Tamil</a>
+                <a <?=$mandarinHref?> target="_blank" download class="list-group-item">Mandarin</a>
+                <a <?=$bmHref?> target="_blank" download class="list-group-item">Bahasa Malaysia</a>
             </div>
             <h5 class="text-bold mb-2">Have something to post?</h5>
             <p>
