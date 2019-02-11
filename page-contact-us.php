@@ -1,5 +1,6 @@
 <?php
     get_header();
+    $themeRoot = get_template_directory_uri();
 ?>
 <div class="content-container py-5">
     <h1 class="text-bold text-center mb-4">Contact Us</h1>
@@ -39,26 +40,27 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-12 col-bottom-fix">
             <h3 class="text-bold">Leave us your feedback or inquiries here</h3>
-            <form method="post" action="#">
+            <form id="ContactUsForm" method="post" action="<?=$themeRoot?>/api/contact-us.php">
                 <div class="form-group">
                     <label class="text-bold">Your Name</label>
-                    <input type="text" class="form-control rounded-0" placeholder="e.g. John Doe">
+                    <input name="Name" type="text" class="form-control rounded-0" placeholder="e.g. John Doe">
                 </div>
                 <div class="form-group">
                     <label class="text-bold">Your Email</label>
-                    <input type="text" class="form-control rounded-0" placeholder="e.g. john.doe@email.com">
+                    <input name="Email" type="text" class="form-control rounded-0" placeholder="e.g. john.doe@email.com">
                 </div>
                 <div class="form-group">
                     <label class="text-bold">Your Phone Number (optional)</label>
-                    <input type="text" class="form-control rounded-0" placeholder="e.g. 0191234567">
+                    <input name="PhoneNumber" type="text" class="form-control rounded-0" placeholder="e.g. 0191234567">
                 </div>
                 <div class="form-group">
                     <label class="text-bold">Your Feedback/Inquiry</label>
-                    <textarea class="form-control rounded-0" maxlength="255" placeholder="e.g. Holy Family Kajang is awesome"></textarea>
+                    <textarea name="Feedback" class="form-control rounded-0" maxlength="255" placeholder="e.g. Holy Family Kajang is awesome"></textarea>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary">SUBMIT</button>
+                <input class="btn btn-primary" type="submit" name="submit" value="SUBMIT">    
                 </div>
+                
             </form>
         </div>
     </div>

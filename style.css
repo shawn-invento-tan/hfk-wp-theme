@@ -369,3 +369,6 @@ a.link-black:hover{
 .description-card h5{
     font-weight:bold;
 }
+.overflow-hidden{
+    overflow: hidden;
+}

@@ -7,50 +7,58 @@
     
     $englishBulletin = GetBulletin("Bulletin_EN");
     if($englishBulletin=="#"){
-        $englishHref="";
-        $englishBtnType="btn-outline-danger text-danger";
+        $englishHref="href=\"#\"";
+        $englishBtnType="btn-outline-danger disabled";
         $englishButtonText="NOT AVAILABLE";
+        $englishDownload="";
     }
     else{
         $englishHref="href=\"".$englishBulletin."\"";
         $englishBtnType="btn-outline-secondary";
         $englishButtonText="DOWNLOAD";
+        $englishDownload="download";
     }
     
     $tamilBulletin = GetBulletin("Bulletin_TM");
     if($tamilBulletin=="#"){
-        $tamilHref="";
-        $tamilBtnType="btn-outline-danger text-danger";
+        $tamilHref="href=\"#\"";
+        $tamilBtnType="btn-outline-danger disabled";
         $tamilButtonText="NOT AVAILABLE";
+        $tamilDownload="";
     }
     else{
         $tamilHref="href=\"".$tamilBulletin."\"";
         $tamilBtnType="btn-outline-secondary";
         $tamilButtonText="DOWNLOAD";
+        $tamilDownload="download";
     }
 
     $mandarinBulletin = GetBulletin("Bulletin_MND");
     if($mandarinBulletin=="#"){
-        $mandarinHref="";
-        $mandarinBtnType="btn-outline-danger text-danger";
+        $mandarinHref="href=\"#\"";
+        $mandarinBtnType="btn-outline-danger disabled";
         $mandarinButtonText="NOT AVAILABLE";
+        $mandarinDownload="";
     }
     else{
         $mandarinHref="href=\"".$mandarinBulletin."\"";
         $mandarinBtnType="btn-outline-secondary";
         $mandarinButtonText="DOWNLOAD";
+        $mandarinDownload="download";
     }
     
     $bmBulletin = GetBulletin("Bulletin_BM");
     if($bmBulletin=="#"){
-        $bmHref="";
-        $bmBtnType="btn-outline-danger text-danger";
+        $bmHref="href=\"#\"";
+        $bmBtnType="btn-outline-danger disabled";
         $bmButtonText="NOT AVAILABLE";
+        $bmDownload="";
     }
     else{
         $bmHref="href=\"".$bmBulletin."\"";
         $bmBtnType="btn-outline-secondary";
         $bmButtonText="DOWNLOAD";
+        $bmDownload="download";
     }
 
 ?>
@@ -186,30 +194,32 @@
 <div id="Bulletins" class="bg-light py-5 border-top">
     <div class="content-container text-center">
         <h2 class="text-bold">Bulletins</h2>
-        <h4 class="mb-4">Download the latest copy</h4>
+        <h4 class="mb-4">Download the latest copy or
+            <a class="text-decoration-none" href="<?=$siteRoot?>/bulletin">view our e-Bulletin</a>
+        </h4>
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
                 <h5 class="text-bold">English</h5>
                 <div>
-                    <a <?=$englishHref?> target="_blank" class="btn <?=$englishBtnType?>" download><?=$englishButtonText?></a>
+                    <a <?=$englishHref?> target="_blank" class="btn <?=$englishBtnType?>" <?=$englishDownload?>><?=$englishButtonText?></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
                 <h5 class="text-bold">Tamil</h5>
                 <div>
-                    <a <?=$tamilHref?> target="_blank" class="btn <?=$tamilBtnType?>" download><?=$tamilButtonText?></a>
+                    <a <?=$tamilHref?> target="_blank" class="btn <?=$tamilBtnType?>" <?=$tamilDownload?>><?=$tamilButtonText?></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
                 <h5 class="text-bold">Mandarin</h5>
                 <div>
-                    <a <?=$mandarinHref?> target="_blank" class="btn <?=$mandarinBtnType?>" download><?=$mandarinButtonText?></a>
+                    <a <?=$mandarinHref?> target="_blank" class="btn <?=$mandarinBtnType?>" <?=$mandarinDownload?>><?=$mandarinButtonText?></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-12 col-bottom-fix">
                 <h5 class="text-bold">Bahasa Malaysia</h5>
                 <div>
-                    <a <?=$bmHref?> target="_blank" class="btn <?=$bmBtnType?>" download><?=$bmButtonText?></a>
+                    <a <?=$bmHref?> target="_blank" class="btn <?=$bmBtnType?>" <?=$bmDownload?>><?=$bmButtonText?></a>
                 </div>
             </div>
         </div>

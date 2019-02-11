@@ -40,6 +40,26 @@
                         scrollTop:scrollHeight+2
                     },"slow");
                 })
+                $("#ContactUsForm").on("submit",function(){
+                    var Name = this.Name.value;
+                    var Email = this.Email.value;
+                    var PhoneNumber = this.PhoneNumber.value;
+                    var Feedback = this.Feedback.value;
+                    var Data = {
+                        "Name":Name,
+                        "Email":Email,
+                        "PhoneNumber":PhoneNumber,
+                        "Feedback":Feedback
+                    };
+                    var Href = $(this).attr("action");
+                    $.post(Href,Data,function(data){
+                        alert(data);
+                    })
+
+                    
+
+                    return false;
+                })
             })
         </script>
     </head>

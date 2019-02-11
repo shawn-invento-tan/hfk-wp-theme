@@ -1,6 +1,6 @@
 <?php
     get_header();
-    $announcementFilters = array("category_name"=>"bulletin");
+    $announcementFilters = array("category_name"=>"bulletin","order"=>"ASC","posts_per_page"=>"200");
     $announcementArray = get_posts($announcementFilters);
     
     $englishBulletin = GetBulletin("Bulletin_EN");
@@ -8,11 +8,13 @@
         $englishHref="";
         $englishBtnType="btn-outline-danger text-danger";
         $englishButtonText="NOT AVAILABLE";
+        $englishDownload="";
     }
     else{
         $englishHref="href=\"".$englishBulletin."\"";
         $englishBtnType="btn-outline-secondary";
         $englishButtonText="DOWNLOAD";
+        $englishDownload="download";
     }
 
     $tamilBulletin = GetBulletin("Bulletin_TM");
@@ -20,11 +22,13 @@
         $tamilHref="";
         $tamilBtnType="btn-outline-danger text-danger";
         $tamilButtonText="NOT AVAILABLE";
+        $tamilDownload="";
     }
     else{
         $tamilHref="href=\"".$tamilBulletin."\"";
         $tamilBtnType="btn-outline-secondary";
         $tamilButtonText="DOWNLOAD";
+        $tamilDownload="download";
     }
 
     $mandarinBulletin = GetBulletin("Bulletin_MND");
@@ -32,11 +36,13 @@
         $mandarinHref="";
         $mandarinBtnType="btn-outline-danger text-danger";
         $mandarinButtonText="NOT AVAILABLE";
+        $mandarinDownload="";
     }
     else{
         $mandarinHref="href=\"".$mandarinBulletin."\"";
         $mandarinBtnType="btn-outline-secondary";
         $mandarinButtonText="DOWNLOAD";
+        $mandarinDownload="download";
     }
 
     $bmBulletin = GetBulletin("Bulletin_BM");
@@ -44,11 +50,13 @@
         $bmHref="";
         $bmBtnType="btn-outline-danger text-danger";
         $bmButtonText="NOT AVAILABLE";
+        $bmDownload="";
     }
     else{
         $bmHref="href=\"".$bmBulletin."\"";
         $bmBtnType="btn-outline-secondary";
         $bmButtonText="DOWNLOAD";
+        $bmDownload="download";
     }
 ?>
 <div class="content-container py-5">
@@ -96,10 +104,10 @@
         <div class="col-lg-3 col-md-4 col-sm-12 col-12 col-bottom-fix text-lg-left text-md-left text-sm-center text-center">
             <h5 class="text-bold mb-2">Get your copy</h5>
             <div class="list-group mb-4 text-bold">
-                <a <?=$englishHref?> target="_blank" download class="list-group-item">English</a>
-                <a <?=$tamilHref?> target="_blank" download class="list-group-item">Tamil</a>
-                <a <?=$mandarinHref?> target="_blank" download class="list-group-item">Mandarin</a>
-                <a <?=$bmHref?> target="_blank" download class="list-group-item">Bahasa Malaysia</a>
+                <a <?=$englishHref?> target="_blank" <?=$englishDownload?> class="list-group-item">English</a>
+                <a <?=$tamilHref?> target="_blank" <?=$tamilDownload?> class="list-group-item">Tamil</a>
+                <a <?=$mandarinHref?> target="_blank" <?=$mandarinDownload?> class="list-group-item">Mandarin</a>
+                <a <?=$bmHref?> target="_blank" <?=$bmDownload?> class="list-group-item">Bahasa Malaysia</a>
             </div>
             <h5 class="text-bold mb-2">Have something to post?</h5>
             <p>
