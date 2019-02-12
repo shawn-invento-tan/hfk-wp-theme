@@ -53,7 +53,7 @@
                     };
                     var Href = $(this).attr("action");
                     $.post(Href,Data,function(data){
-                        alert(data);
+                        
                     })
 
                     
