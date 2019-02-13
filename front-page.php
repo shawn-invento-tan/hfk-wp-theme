@@ -136,7 +136,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
                 <div class="card front-page-card hoverable goto">
                     <div class="card-img-top aspect-ratio-16-9 bg-dark">
-                        <img src="<?=$themeRoot?>/assets/bec.jpg">
+                        <img src="<?=$themeRoot?>/assets/bec-stock.jpg">
                     </div>
                     <div class="card-body">
                         <a href="<?=$siteRoot?>/bec">Basic Ecclesial Communities (BEC)</a>
@@ -146,7 +146,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-12 col-bottom-fix">
                 <div class="card front-page-card hoverable goto">
                     <div class="card-img-top aspect-ratio-16-9 bg-dark">
-                        <img src="<?=$themeRoot?>/assets/socialcomm.jpg">
+                        <img src="<?=$themeRoot?>/assets/social-comm-stock.jpg">
                     </div>
                     <div class="card-body">
                         <a href="<?=$siteRoot?>/clusters">Social Comm</a>
