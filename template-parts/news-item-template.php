@@ -9,7 +9,7 @@
             <h5 class="text-bold mb-0"><?=$postTitle?></h5>
         </a>
         <div class="fs-85pc mb-2">
-            By <?=$postAuthor?> on <?=$postDate?>
+            Posted on <?=$postDate?>
         </div>
         <div><?=$postExcerpt?></div>
     </div>

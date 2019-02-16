@@ -42,6 +42,9 @@
                         <div>
                             <a href="https://www.google.com.my/maps/place/Church+of+The+Holy+Family+(1899)/@2.988675,101.7883941,17z/data=!3m1!4b1!4m5!3m4!1s0x31cdcb838c6da811:0xa716824c78151353!8m2!3d2.988675!4d101.7905828?hl=en&authuser=0">Our Location</a>
                         </div>
+                        <div>
+                            <a href="<?=$siteRoot?>/our-logo">Our Logo</a>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-12 col-bottom-fix">
                         <div class="text-bold">Resources</div>
