@@ -102,7 +102,7 @@
             </div>--->
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12 col-12 col-bottom-fix text-lg-left text-md-left text-sm-center text-center">
-            <h5 class="text-bold mb-2">Get your copy</h5>
+            <h5 class="text-bold mb-3">Get your copy</h5>
             <div class="list-group mb-4 text-bold">
                 <a <?=$englishHref?> target="_blank" <?=$englishDownload?> class="list-group-item">English</a>
                 <a <?=$tamilHref?> target="_blank" <?=$tamilDownload?> class="list-group-item">Tamil</a>
